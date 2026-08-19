@@ -65,7 +65,7 @@ User says “Give me an EmberDossier on Northwind Analytics” → agent loads t
 | DB / backend | none | proposed | Static site; skill is Markdown |
 | Auth / storage | none | proposed | No state that outlives the browser |
 | State persistence | n/a (not a web app with user state) | proposed | LocalBerth lease only for `site:dev` |
-| Deploy | Cloudflare Pages (static `build/`) | proposed | FilePress happy path |
+| Deploy | Cloudflare Pages project `emberdossier` via `pnpm ship` | confirmed | Matches house FilePress ship script |
 | Local preview | LocalBerth `ember-dossier-site` on **5189** | proposed | Avoid the shared 5173 pool |
 | Lifecycle | ForgeTrail MCP, `.forgetrail/` | proposed | Owner ask |
 
@@ -136,7 +136,7 @@ Skip. Site and skill are hand-authored. Dossiers are produced by the *consumer* 
 | # | Question | Owner / resolve by |
 | - | -------- | ------------------ |
 | 1 | Lock this brief and start Phase 2 docs (`CONTEXT_PROMPT`, `TODO`, `IDEAS`)? | owner |
-| 2 | Cloudflare Pages project name for emberdossier.com? | owner |
+| 2 | DNS for emberdossier.com → Cloudflare Pages project `emberdossier` | owner |
 
 ---
 

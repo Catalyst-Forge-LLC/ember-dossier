@@ -6,6 +6,7 @@ FilePress explainer for [emberdossier.com](https://emberdossier.com). Engine fro
 pnpm install
 pnpm dev
 pnpm build    # → build/
+pnpm ship     # build + wrangler pages deploy (project: emberdossier)
 ```
 
 If LocalBerth is installed, claim `ember-dossier-site` on port **5189**.

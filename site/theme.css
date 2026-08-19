@@ -1,1 +1,12 @@
-/* filepress site theme — edit freely or use Genie Mode in dev */
+/* Ember accent: the top line is still hot. */
+:root {
+	--accent: #c45c2a;
+	--accent-strong: #8a2e16;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--accent: #e07a3a;
+		--accent-strong: #f0b56a;
+	}
+}

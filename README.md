@@ -34,6 +34,7 @@ FilePress explainer. Engine from npm (`getfilepress`).
 pnpm install
 pnpm --dir site install
 pnpm site:dev
+pnpm ship          # FilePress build + Wrangler Pages (project: emberdossier)
 ```
 
 If LocalBerth is installed, this site stays on **5189** as `ember-dossier-site`.

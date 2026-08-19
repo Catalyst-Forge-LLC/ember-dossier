@@ -10,7 +10,8 @@ export default defineFilepressConfig({
 	lede: 'A living dossier that prioritizes what’s still hot.',
 	url: 'https://emberdossier.com',
 	author: 'Catalyst Forge LLC',
-	logo: '/favicon.svg',
+	logo: '/logo.svg',
+	ogImage: '/logo.svg',
 	homePage: 'home',
 	nav: [
 		{ label: 'Home', href: '/' },
@@ -22,8 +23,8 @@ export default defineFilepressConfig({
 	],
 	footerLinks: [
 		{ label: 'RSS', href: '/rss.xml' },
+		{ label: 'npm', href: 'https://www.npmjs.com/package/get-ember-dossier' },
 		{ label: 'Skill', href: '/skill' },
-		{ label: 'Sample', href: '/sample' },
 		{ label: 'GitHub', href: github, icon: 'github' }
 	],
 	topics: [

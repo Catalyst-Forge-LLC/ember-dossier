@@ -215,6 +215,17 @@
         "Usage lines only",
         "A corporate or political subject"
       ]
+    },
+    {
+      "id": "D10",
+      "timestamp": "2026-08-19T14:05:00Z",
+      "phase": "1-architecture",
+      "decision": "Cloudflare Pages project name is emberdossier. Deploy with pnpm ship.",
+      "rationale": "Matches emberdossier.com and the house FilePress ship script (build + wrangler pages deploy).",
+      "alternatives_considered": [
+        "ember-dossier",
+        "get-ember-dossier"
+      ]
     }
   ],
   "gotchas": [
@@ -255,6 +266,11 @@
       "date": "2026-08-19",
       "phase": "1-architecture",
       "notes": "Published get-ember-dossier@0.0.0. emberdossier was blocked; hyphenated get- prefix cleared the similar-name check."
+    },
+    {
+      "date": "2026-08-19",
+      "phase": "1-architecture",
+      "notes": "Logo/favicon (dossier + hot top line). pnpm ship → Pages project emberdossier. origin set to Catalyst-Forge-LLC/ember-dossier."
     }
   ]
 }

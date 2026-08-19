@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72" fill="none" role="img" aria-label="EmberDossier">
+	<title>EmberDossier</title>
+	<!-- Borderless mark: a dossier whose top line is still hot. -->
+	<style>
+		.page { fill: #f6efe4; stroke: #2a1c14; }
+		.fold { fill: #e4d6c4; stroke: #2a1c14; }
+		.ink { stroke: #2a1c14; }
+		.ember { fill: #d65a2a; }
+		.coal { fill: #8a2e16; }
+		.glow { fill: #e8a15a; }
+		@media (prefers-color-scheme: dark) {
+			.page { fill: #1a1612; stroke: #e4d6c4; }
+			.fold { fill: #12100e; stroke: #e4d6c4; }
+			.ink { stroke: #e4d6c4; }
+			.ember { fill: #e07a3a; }
+			.coal { fill: #c45c2a; }
+			.glow { fill: #f0b56a; }
+		}
+	</style>
+
+	<path class="page" stroke-width="1.6" stroke-linejoin="round"
+		d="M16 12h24.5L51 22.5V62H16z"/>
+	<path class="fold" stroke-width="1.6" stroke-linejoin="round"
+		d="M40.5 12v10.5H51z"/>
+
+	<!-- Older lines fade. The first line stays lit. -->
+	<g class="ink" stroke-width="1.7" stroke-linecap="round">
+		<line x1="22" y1="32" x2="40" y2="32" stroke="#d65a2a"/>
+		<line x1="22" y1="40" x2="48" y2="40" opacity="0.72"/>
+		<line x1="22" y1="48" x2="45" y2="48" opacity="0.45"/>
+		<line x1="22" y1="56" x2="38" y2="56" opacity="0.28"/>
+	</g>
+
+	<!-- Ember on the current line -->
+	<circle class="glow" cx="45.2" cy="31.2" r="3.4" opacity="0.45"/>
+	<circle class="ember" cx="45.2" cy="31.4" r="2.15"/>
+	<circle class="coal" cx="44.5" cy="32.1" r="0.85"/>
+	<circle class="glow" cx="48.6" cy="27.8" r="0.7" opacity="0.85"/>
+	<circle class="ember" cx="50.4" cy="29.6" r="0.55" opacity="0.7"/>
+	<circle class="glow" cx="47.2" cy="26.2" r="0.45" opacity="0.55"/>
+</svg>
