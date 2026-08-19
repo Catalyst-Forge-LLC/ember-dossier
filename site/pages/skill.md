@@ -4,15 +4,15 @@ description: Install EmberDossier from npm, then copy one folder that contains S
 order: 1
 ---
 
-EmberDossier is Markdown you point an agent at. The package name on npm is **`emberdossier`**. The hyphenated name `ember-dossier` is an unrelated 2017 Ember addon. Do not install that.
+EmberDossier is Markdown you point an agent at. The package name on npm is **`get-ember-dossier`**. The hyphenated name `ember-dossier` is an unrelated 2017 Ember addon. Unscoped `emberdossier` is blocked as too similar. Do not install those.
 
 ## From npm
 
 ```bash
-pnpm add emberdossier
+pnpm add get-ember-dossier
 ```
 
-Copy `node_modules/emberdossier/skills/ember-dossier/` into the agent’s skills directory. Cursor wants a named folder that contains `SKILL.md`.
+Copy `node_modules/get-ember-dossier/skills/ember-dossier/` into the agent’s skills directory. Cursor wants a named folder that contains `SKILL.md`.
 
 A filled sample lives at `skills/ember-dossier/examples/harborview-public-library.md` and on this site at [Sample](/sample).
 

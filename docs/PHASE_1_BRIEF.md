@@ -46,7 +46,7 @@ User says “Give me an EmberDossier on Northwind Analytics” → agent loads t
 ## 3. Constraints
 
 - **Technical:** TypeScript ESM, pnpm, FilePress static site, Cursor project skill. No PocketBase, no auth, no runtime LLM API in this repo. The *consumer* agent may use search; EmberDossier does not ship a research backend.
-- **Business / timeline:** Domain **emberdossier.com**. npm name **`emberdossier`** (`ember-dossier` is taken).
+- **Business / timeline:** Domain **emberdossier.com**. npm name **`get-ember-dossier`**. `ember-dossier` is taken; `emberdossier` is blocked as too similar.
 - **Explicit non-goals for v1:** (see section 10)
 
 ---
@@ -60,7 +60,7 @@ User says “Give me an EmberDossier on Northwind Analytics” → agent loads t
 | Package manager | pnpm | proposed | House default |
 | Site engine | FilePress (`getfilepress` from npm, ^0.1.5) | confirmed | Owner: use the published package |
 | Public URL | https://emberdossier.com | confirmed | Owner |
-| npm package | `emberdossier` | confirmed | `ember-dossier` is an unrelated Ember addon |
+| npm package | `get-ember-dossier` | confirmed | `ember-dossier` taken; `emberdossier` blocked by npm similar-name check |
 | Voice | aiBreze + overlay | proposed | Owner ask |
 | DB / backend | none | proposed | Static site; skill is Markdown |
 | Auth / storage | none | proposed | No state that outlives the browser |
@@ -123,7 +123,7 @@ Skip. Site and skill are hand-authored. Dossiers are produced by the *consumer* 
 
 **D6.** Public site is **emberdossier.com**.
 
-**D7.** Publish the skill as npm **`emberdossier`**. WHY: `ember-dossier` is taken by an abandoned 2017 Ember addon.
+**D7.** Publish the skill as npm **`get-ember-dossier`**. WHY: `ember-dossier` is taken. `emberdossier` failed npm’s similar-name check (punctuation-stripped match).
 
 **D8.** FilePress via published **`getfilepress`**, not a sibling `link:`.
 

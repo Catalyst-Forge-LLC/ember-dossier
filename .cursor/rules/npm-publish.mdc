@@ -1,0 +1,14 @@
+---
+description: npm publish is allowed in this repo when the user wants it
+alwaysApply: true
+---
+
+# npm publish
+
+The owner publishes this package. When they ask to publish, or say to
+always allow npm publish, **do it**.
+
+- If the working tree is dirty, **commit first** so `pnpm publish`
+  git-checks pass. Do not reach for `--no-git-checks` unless they ask.
+- Use `pnpm publish --access public` (or the OTP form if 2FA requires it).
+- Do not apply aibreze’s “agents must not publish” rule here.
