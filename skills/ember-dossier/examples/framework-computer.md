@@ -1,6 +1,6 @@
 # EmberDossier: Framework Computer
 
-This is a sample. **Framework Computer** is a real company. Facts are current as of 19 August 2026. EmberDossier and Catalyst Forge have no affiliation with Framework Computer. The founder is named because this briefing named that person.
+This is an example. **Framework Computer** is a real company. Facts are current as of 19 August 2026. EmberDossier and Catalyst Forge have no affiliation with Framework Computer. The founder is named because this briefing named that person.
 
 ## 1. Snapshot
 

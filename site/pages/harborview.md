@@ -4,7 +4,7 @@ description: A filled EmberDossier on an invented civic fixture. Fixtures, not r
 order: 4
 ---
 
-This is a sample. **Harborview** is invented. Dates and figures are fixtures so the seven sections have something to hold. Do not treat this as news.
+This is an example. **Harborview** is invented. Dates and figures are fixtures so the seven sections have something to hold. Do not treat this as news.
 
 # EmberDossier: Harborview Public Library
 
@@ -51,7 +51,7 @@ The library opened in 1924 in a donated house on Market Street. The current buil
 - **Downtown merchants’ association** — reading-garden proposal.
 - **West-wing contractor** — named in city filings; not restated here.
 
-No individual is named. This sample uses roles on purpose.
+No individual is named. This example uses roles on purpose.
 
 ## 7. Possible refinements of the subject
 
@@ -66,4 +66,4 @@ No individual is named. This sample uses roles on purpose.
 
 ---
 
-[Other sample](/ember-dossier) · [Samples](/sample) · [Get the skill](/skill)
+[Other example](/ember-dossier) · [Examples](/examples) · [Get the skill](/skill)

@@ -4,7 +4,7 @@ description: A filled EmberDossier on Framework Computer. Real company. Independ
 order: 6
 ---
 
-This is a sample. **Framework Computer** is a real company. Facts are current as of 19 August 2026. EmberDossier and Catalyst Forge have no affiliation with Framework Computer.
+This is an example. **Framework Computer** is a real company. Facts are current as of 19 August 2026. EmberDossier and Catalyst Forge have no affiliation with Framework Computer.
 
 # EmberDossier: Framework Computer
 
@@ -59,4 +59,4 @@ Patel founded Framework in January 2020 after software work at Apple and a stret
 
 ---
 
-[Other samples](/sample) · [Get the skill](/skill)
+[Other examples](/examples) · [Get the skill](/skill)

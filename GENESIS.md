@@ -72,7 +72,7 @@ In short: it turns an ad-hoc research habit into a reusable tool.
 
 ### Example Usage
 
-Use gender-neutral language. Sample subjects should be gender-neutral or obviously generic (organizations, places, topics, events, or clearly fictional names). Do not use real living people as examples unless the user named that subject.
+Use gender-neutral language. Example subjects should be gender-neutral or obviously generic (organizations, places, topics, events, or clearly fictional names). Do not use real living people as examples unless the user named that subject.
 
 - “Give me an EmberDossier on Harborview Public Library.”
 - “Give me an EmberDossier on Northwind Analytics.”
@@ -120,7 +120,7 @@ Structure the response with these sections (adapt as needed):
 - Flag contested or partisan claims.
 - Include specific dates, numbers, and concrete details where available.
 - Briefly note major source types at the end.
-- Use gender-neutral language. Sample subjects in this skill and in demos must be gender-neutral or obviously generic. Do not use real living people as examples unless the user named that subject.
+- Use gender-neutral language. Example subjects in this skill and in demos must be gender-neutral or obviously generic. Do not use real living people as examples unless the user named that subject.
 ```
 
 ---

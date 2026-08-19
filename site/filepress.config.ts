@@ -16,7 +16,7 @@ export default defineFilepressConfig({
 	nav: [
 		{ label: 'Home', href: '/' },
 		{ label: 'Skill', href: '/skill' },
-		{ label: 'Sample', href: '/sample' },
+		{ label: 'Examples', href: '/examples' },
 		{ label: 'About', href: '/about' },
 		{ label: 'Writing', href: '/writing' },
 		{ label: 'GitHub', href: github, icon: 'github' }

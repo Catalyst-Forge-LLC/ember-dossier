@@ -1,6 +1,6 @@
 # EmberDossier: Harborview Public Library
 
-This is a sample. **Harborview** is invented. Dates and figures are fixtures so the seven sections have something to hold. Do not treat this as news. No individual is named.
+This is an example. **Harborview** is invented. Dates and figures are fixtures so the seven sections have something to hold. Do not treat this as news. No individual is named.
 
 ## 1. Snapshot
 

@@ -40,7 +40,7 @@ Structure the response with these sections (adapt as needed):
 - Flag contested or partisan claims.
 - Include specific dates, numbers, and concrete details where available.
 - Briefly note major source types at the end.
-- Use gender-neutral language. In this skill and in any demo, sample subjects must be gender-neutral or obviously generic (organizations, places, topics, events, or clearly fictional names). Do not use real living people as examples unless the user named that subject.
+- Use gender-neutral language. In this skill and in any demo, example subjects must be gender-neutral or obviously generic (organizations, places, topics, events, or clearly fictional names). Do not use real living people as examples unless the user named that subject.
 
 ## Example asks
 
@@ -51,4 +51,4 @@ Structure the response with these sections (adapt as needed):
 - “Read the EmberDossier first, then answer the question.”
 - “I need a fresh EmberDossier on the current state of Project Lantern.”
 
-Filled samples: invented [examples/harborview-public-library.md](examples/harborview-public-library.md); real [examples/ember-dossier.md](examples/ember-dossier.md) and [examples/framework-computer.md](examples/framework-computer.md). Use them to see section order. Do not treat Harborview as reporting.
+Filled examples: invented [examples/harborview-public-library.md](examples/harborview-public-library.md); real [examples/ember-dossier.md](examples/ember-dossier.md) and [examples/framework-computer.md](examples/framework-computer.md). Use them to see section order. Do not treat Harborview as reporting.

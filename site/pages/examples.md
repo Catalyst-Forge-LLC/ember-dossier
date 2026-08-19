@@ -1,5 +1,5 @@
 ---
-title: Sample
+title: Examples
 description: Three filled EmberDossiers. One invented, two real.
 order: 3
 ---

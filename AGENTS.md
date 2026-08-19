@@ -10,7 +10,7 @@ This repo uses **ForgeTrail** lifecycle tracking. Source of truth: `.forgetrail/
 ## Product rules
 
 - EmberDossier is a format, not a research agent.
-- Sample subjects in shipped docs are gender-neutral or obviously generic.
+- Example subjects in shipped docs are gender-neutral or obviously generic.
 - Publishable prose follows aiBreze. Overlay: `docs/aibreze.md`.
 
 ## Git commits

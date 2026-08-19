@@ -14,9 +14,9 @@ Point at the `aibreze` package, then only this.
 - EmberDossier, dossier, snapshot, orbit, refinement
 - Recency, present tense, living dossier
 - FilePress, ForgeTrail, aiBreze (sibling products, named on purpose)
-- Northwind Analytics, Project Lantern, Harborview Public Library (generic sample subjects)
-- EmberDossier (real filled sample, when the owner named this product)
-- Framework Computer (real filled sample, owner-named; independent, no affiliation)
+- Northwind Analytics, Project Lantern, Harborview Public Library (generic example subjects)
+- EmberDossier (real filled example, when the owner named this product)
+- Framework Computer (real filled example, owner-named; independent, no affiliation)
 
 ## Protected lines
 
@@ -25,6 +25,6 @@ Point at the `aibreze` package, then only this.
 
 ## House law
 
-- Sample subjects are gender-neutral or obviously generic.
+- Example subjects are gender-neutral or obviously generic.
 - The seven section names are the contract. Do not rename them for style.
 - EmberDossier is a format, not a research agent. Do not sell it as one.

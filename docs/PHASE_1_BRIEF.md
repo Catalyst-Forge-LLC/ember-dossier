@@ -21,7 +21,7 @@ EmberDossier is a structured prompting pattern and agent skill for current, neut
 - An agent that has the skill produces the seven-section dossier on a subject the user names.
 - The public site states the pattern, shows generic examples, and has an install path.
 - `pnpm site:build` emits static HTML.
-- Sample subjects in the repo are gender-neutral or obviously generic.
+- Example subjects in the repo are gender-neutral or obviously generic.
 
 ---
 
@@ -113,7 +113,7 @@ Skip. Site and skill are hand-authored. Dossiers are produced by the *consumer* 
 
 **D1.** Skill + FilePress site. Not a PocketBase app. WHY: the product is the pattern.
 
-**D2.** Generic or gender-neutral examples only. WHY: owner instruction; avoids stale or biased samples.
+**D2.** Generic or gender-neutral examples only. WHY: owner instruction; avoids stale or biased stand-ins.
 
 **D3.** aiBreze on publishable prose. Product voice is EmberDossier / it.
 
@@ -127,11 +127,13 @@ Skip. Site and skill are hand-authored. Dossiers are produced by the *consumer* 
 
 **D8.** FilePress via published **`getfilepress`**, not a sibling `link:`.
 
-**D9.** Filled sample is Harborview Public Library: civic, invented, roles not names, operational disputes only.
+**D9.** Filled example is Harborview Public Library: civic, invented, roles not names, operational disputes only.
 
-**D11.** Second filled sample is EmberDossier itself: real, quiet, named by the owner. Same seven sections. `/sample` is an index.
+**D11.** Second filled example is EmberDossier itself: real, quiet, named by the owner. Same seven sections. `/examples` is an index.
 
-**D12.** Third filled sample is Framework Computer: real hardware company, owner-supplied briefing, no affiliation. Founder named because the briefing named that person.
+**D12.** Third filled example is Framework Computer: real hardware company, owner-supplied briefing, no affiliation. Founder named because the briefing named that person.
+
+**D13.** Call filled briefings **examples** on the site and in the skill. Nav and index are `/examples`. “Example subjects” is the house phrase for demo subjects.
 
 ---
 

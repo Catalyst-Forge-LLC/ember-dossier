@@ -14,7 +14,7 @@ pnpm add get-ember-dossier
 
 Copy `node_modules/get-ember-dossier/skills/ember-dossier/` into the agent’s skills directory. Cursor wants a named folder that contains `SKILL.md`.
 
-Filled samples: invented [Harborview Public Library](/harborview), real [EmberDossier](/ember-dossier) and [Framework Computer](/framework-computer). In the package: `skills/ember-dossier/examples/`.
+Filled examples: invented [Harborview Public Library](/harborview), real [EmberDossier](/ember-dossier) and [Framework Computer](/framework-computer). In the package: `skills/ember-dossier/examples/`.
 
 ## From this repo
 
@@ -40,4 +40,4 @@ It does not crawl the web for you. It does not store dossiers. It tells the agen
 
 If you need live facts, use an agent that can search. EmberDossier only fixes the order of the write-up.
 
-[Sample](/sample) · [About](/about) · [GitHub](https://github.com/Catalyst-Forge-LLC/ember-dossier)
+[Examples](/examples) · [About](/about) · [GitHub](https://github.com/Catalyst-Forge-LLC/ember-dossier)

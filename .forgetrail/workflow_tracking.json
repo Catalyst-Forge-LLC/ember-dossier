@@ -247,6 +247,17 @@
       "alternatives_considered": [
         "EmberDossier + Harborview only"
       ]
+    },
+    {
+      "id": "D13",
+      "timestamp": "2026-08-19T14:27:00Z",
+      "phase": "1-architecture",
+      "decision": "Call filled briefings examples on the site and in the skill. Nav and index are /examples. House phrase for demo subjects is example subjects.",
+      "rationale": "Owner: site said sample, skill said examples. Examples matches the skill folder and how you ask an agent.",
+      "alternatives_considered": [
+        "Sample everywhere",
+        "Keep the split"
+      ]
     }
   ],
   "gotchas": [
@@ -302,6 +313,11 @@
       "date": "2026-08-19",
       "phase": "1-architecture",
       "notes": "Third filled sample: Framework Computer (real, no affiliation). Linux numbers split: ~80% installed base vs >10:1 early Fedora/Windows pre-order mix."
+    },
+    {
+      "date": "2026-08-19",
+      "phase": "1-architecture",
+      "notes": "Rename: site Sample → Examples (/examples). House phrase is example subjects."
     }
   ]
 }

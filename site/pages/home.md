@@ -12,7 +12,7 @@ In research, journalism, diligence, and agent handoffs, that order is backwards.
 
 <div class="cta-row">
   <a class="cta cta-primary" href="/skill">Get the skill</a>
-  <a class="cta cta-secondary" href="/sample">Read a sample</a>
+  <a class="cta cta-secondary" href="/examples">Read the examples</a>
 </div>
 
 ## Ask it like this
@@ -23,7 +23,7 @@ In research, journalism, diligence, and agent handoffs, that order is backwards.
 - I need a fresh EmberDossier on the current state of Project Lantern.
 - Give me an EmberDossier on the Harborview transit expansion.
 
-Sample subjects stay generic on purpose, unless a real one is named. [Harborview Public Library](/harborview) is invented. [EmberDossier](/ember-dossier) is this product. [Framework Computer](/framework-computer) is a real company, no affiliation.
+Example subjects stay generic on purpose, unless a real one is named. [Harborview Public Library](/harborview) is invented. [EmberDossier](/ember-dossier) is this product. [Framework Computer](/framework-computer) is a real company, no affiliation.
 
 ## The seven sections
 
@@ -39,6 +39,6 @@ Same shape every time. Humans read it. Agents update, compare, and hand it off.
 
 EmberDossier is a format. It is not a research service. The agent you already use does the looking.
 
-[Get the skill](/skill) · [Sample](/sample) · [About](/about) · [GitHub](https://github.com/Catalyst-Forge-LLC/ember-dossier)
+[Get the skill](/skill) · [Examples](/examples) · [About](/about) · [GitHub](https://github.com/Catalyst-Forge-LLC/ember-dossier)
 
 Built by [Catalyst Forge LLC](https://www.catalystforge.com). MIT.
