@@ -25,7 +25,7 @@ A shared name helps:
 
 ## Examples
 
-Shipped docs use stand-ins, plus one real subject when it is named. [Harborview Public Library](/harborview) is a fictional municipal branch: roles instead of names, operational disputes only. [EmberDossier](/ember-dossier) is this product. Northwind Analytics and Project Lantern stay as one-line asks. No real living people as sample subjects unless you named that subject.
+Shipped docs use stand-ins, plus a real subject when it is named. [Harborview Public Library](/harborview) is a fictional municipal branch: roles instead of names, operational disputes only. [EmberDossier](/ember-dossier) is this product. [Framework Computer](/framework-computer) is a real hardware company; the founder is named in that briefing because the briefing named that person. EmberDossier has no affiliation with Framework. Northwind Analytics and Project Lantern stay as one-line asks.
 
 ## Small on purpose
 

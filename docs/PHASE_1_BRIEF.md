@@ -131,6 +131,8 @@ Skip. Site and skill are hand-authored. Dossiers are produced by the *consumer* 
 
 **D11.** Second filled sample is EmberDossier itself: real, quiet, named by the owner. Same seven sections. `/sample` is an index.
 
+**D12.** Third filled sample is Framework Computer: real hardware company, owner-supplied briefing, no affiliation. Founder named because the briefing named that person.
+
 ---
 
 ## 9. Open questions (before or during Phase 2)

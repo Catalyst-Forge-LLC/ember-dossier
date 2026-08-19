@@ -14,7 +14,7 @@ pnpm add get-ember-dossier
 
 Copy `node_modules/get-ember-dossier/skills/ember-dossier/` into the agent’s skills directory. Cursor wants a named folder that contains `SKILL.md`.
 
-Two filled samples: invented [Harborview Public Library](/harborview), real [EmberDossier](/ember-dossier). In the package: `skills/ember-dossier/examples/`.
+Filled samples: invented [Harborview Public Library](/harborview), real [EmberDossier](/ember-dossier) and [Framework Computer](/framework-computer). In the package: `skills/ember-dossier/examples/`.
 
 ## From this repo
 
@@ -27,6 +27,7 @@ Same folder, at `skills/ember-dossier/`. This checkout already has a Cursor copy
 ## What you say
 
 - Give me an EmberDossier on Harborview Public Library.
+- Give me an EmberDossier on Framework Computer.
 - Give me an EmberDossier on Northwind Analytics.
 - Update the EmberDossier with anything from the last 30 days.
 - Compare these two EmberDossiers.

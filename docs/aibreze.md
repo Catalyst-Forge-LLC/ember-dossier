@@ -16,6 +16,7 @@ Point at the `aibreze` package, then only this.
 - FilePress, ForgeTrail, aiBreze (sibling products, named on purpose)
 - Northwind Analytics, Project Lantern, Harborview Public Library (generic sample subjects)
 - EmberDossier (real filled sample, when the owner named this product)
+- Framework Computer (real filled sample, owner-named; independent, no affiliation)
 
 ## Protected lines
 

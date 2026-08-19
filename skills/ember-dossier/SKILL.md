@@ -45,9 +45,10 @@ Structure the response with these sections (adapt as needed):
 ## Example asks
 
 - “Give me an EmberDossier on Harborview Public Library.”
+- “Give me an EmberDossier on Framework Computer.”
 - “Give me an EmberDossier on Northwind Analytics.”
 - “Update the EmberDossier with anything from the last 30 days.”
 - “Read the EmberDossier first, then answer the question.”
 - “I need a fresh EmberDossier on the current state of Project Lantern.”
 
-Filled samples: invented [examples/harborview-public-library.md](examples/harborview-public-library.md), real [examples/ember-dossier.md](examples/ember-dossier.md). Use them to see section order. Do not treat Harborview as reporting.
+Filled samples: invented [examples/harborview-public-library.md](examples/harborview-public-library.md); real [examples/ember-dossier.md](examples/ember-dossier.md) and [examples/framework-computer.md](examples/framework-computer.md). Use them to see section order. Do not treat Harborview as reporting.

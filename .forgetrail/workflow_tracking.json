@@ -237,6 +237,16 @@
         "Harborview only",
         "A third-party civic or corporate subject"
       ]
+    },
+    {
+      "id": "D12",
+      "timestamp": "2026-08-19T14:24:00Z",
+      "phase": "1-architecture",
+      "decision": "Third filled sample is Framework Computer. Real, owner-supplied, independent (no affiliation). Founder named because the briefing named that person.",
+      "rationale": "Owner asked for another real, mostly non-controversial example. A hardware company with a same-week product launch teaches recency, orbit, and a real controversy section without turning the sample set into news-cycle bait.",
+      "alternatives_considered": [
+        "EmberDossier + Harborview only"
+      ]
     }
   ],
   "gotchas": [
@@ -287,6 +297,11 @@
       "date": "2026-08-19",
       "phase": "1-architecture",
       "notes": "Second filled sample: EmberDossier (real). /sample is an index. Harborview moved to /harborview."
+    },
+    {
+      "date": "2026-08-19",
+      "phase": "1-architecture",
+      "notes": "Third filled sample: Framework Computer (real, no affiliation). Linux numbers split: ~80% installed base vs >10:1 early Fedora/Windows pre-order mix."
     }
   ]
 }

@@ -23,7 +23,7 @@ In research, journalism, diligence, and agent handoffs, that order is backwards.
 - I need a fresh EmberDossier on the current state of Project Lantern.
 - Give me an EmberDossier on the Harborview transit expansion.
 
-Sample subjects stay generic on purpose. [Harborview Public Library](/harborview) is an invented fixture. [EmberDossier](/ember-dossier) is a real one: this product, same seven sections.
+Sample subjects stay generic on purpose, unless a real one is named. [Harborview Public Library](/harborview) is invented. [EmberDossier](/ember-dossier) is this product. [Framework Computer](/framework-computer) is a real company, no affiliation.
 
 ## The seven sections
 
