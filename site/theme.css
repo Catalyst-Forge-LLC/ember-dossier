@@ -4,6 +4,12 @@
 	--accent-strong: #8a2e16;
 }
 
+/* Logo + wordmark + six nav items need more than the reading column. */
+header.site-header .wrap,
+.site-footer .wrap {
+	max-width: 58rem;
+}
+
 @media (prefers-color-scheme: dark) {
 	:root {
 		--accent: #e07a3a;
