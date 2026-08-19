@@ -22,7 +22,7 @@ Example subjects are generic on purpose unless a real one is named. Filled examp
 pnpm add get-ember-dossier
 ```
 
-Copy `node_modules/get-ember-dossier/skills/ember-dossier/` into the agent’s skills directory. Cursor wants a folder that contains `SKILL.md`.
+Copy `node_modules/get-ember-dossier/skills/ember-dossier/` into the agent’s skills directory. Agents load a named folder that contains `SKILL.md`.
 
 ## Site
 

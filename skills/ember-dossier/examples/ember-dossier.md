@@ -42,7 +42,7 @@ Catalyst Forge LLC publishes it. The explainer is a static FilePress site. The c
 - **npm** — registry for `get-ember-dossier@0.1.0`.
 - **GitHub (`Catalyst-Forge-LLC/ember-dossier`)** — public source.
 - **emberdossier.com** — public explainer and install path.
-- **Cursor** — the documented skill layout is a folder that contains `SKILL.md`.
+- **Skill hosts** — any agent that loads a named folder containing `SKILL.md`.
 - **Harborview Public Library** — invented example subject, not a real institution.
 
 No individual is named.

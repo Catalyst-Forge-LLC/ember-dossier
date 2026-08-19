@@ -12,7 +12,7 @@ EmberDossier is Markdown you point an agent at. Install **`get-ember-dossier`** 
 pnpm add get-ember-dossier
 ```
 
-Copy `node_modules/get-ember-dossier/skills/ember-dossier/` into the agent’s skills directory. Cursor wants a named folder that contains `SKILL.md`.
+Copy `node_modules/get-ember-dossier/skills/ember-dossier/` into the agent’s skills directory. Agents load a named folder that contains `SKILL.md`.
 
 Filled examples: invented [Harborview Public Library](/harborview), real [EmberDossier](/ember-dossier) and [Framework Computer](/framework-computer). In the package: `skills/ember-dossier/examples/`.
 
@@ -22,7 +22,7 @@ Filled examples: invented [Harborview Public Library](/harborview), real [EmberD
 git clone https://github.com/Catalyst-Forge-LLC/ember-dossier.git
 ```
 
-Same folder, at `skills/ember-dossier/`. This checkout already has a Cursor copy under `.cursor/skills/ember-dossier/`.
+Same folder, at `skills/ember-dossier/`.
 
 ## What you say
 

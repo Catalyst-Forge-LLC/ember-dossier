@@ -45,7 +45,7 @@ User says “Give me an EmberDossier on Northwind Analytics” → agent loads t
 
 ## 3. Constraints
 
-- **Technical:** TypeScript ESM, pnpm, FilePress static site, Cursor project skill. No PocketBase, no auth, no runtime LLM API in this repo. The *consumer* agent may use search; EmberDossier does not ship a research backend.
+- **Technical:** TypeScript ESM, pnpm, FilePress static site, agent skill (`SKILL.md` folder; not Cursor-only). No PocketBase, no auth, no runtime LLM API in this repo. The *consumer* agent may use search; EmberDossier does not ship a research backend.
 - **Business / timeline:** Domain **emberdossier.com**. npm name **`get-ember-dossier`**. `ember-dossier` is taken; `emberdossier` is blocked as too similar.
 - **Explicit non-goals for v1:** (see section 10)
 
