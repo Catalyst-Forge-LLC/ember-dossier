@@ -1,0 +1,64 @@
+---
+description: aiBreze. House voice and anti-performative prose for all drafting.
+alwaysApply: true
+---
+
+# aiBreze
+
+Full rules: the `aibreze` package
+([`node_modules/aibreze/rules/core.md`](../../node_modules/aibreze/rules/core.md);
+checkout `z:\workspace\aibreze\rules\core.md`). Overlay:
+[`docs/aibreze.md`](../../docs/aibreze.md). Smell audit:
+`aibreze` `rules/audit.md`. Claims: `aibreze` `rules/claims.md`.
+
+This file is a digest. If it conflicts with `core.md`, `core.md` wins.
+
+## Target
+
+Sharp, slightly tired colleague. Direct > clever. Clear > profound.
+Useful > insightful-sounding. Em dashes earn their place; most don't.
+Judge the sentence, not the byline. Spray the prose, not the author.
+Earn the word.
+
+Site, README, and skill speak as the product (EmberDossier / it). No
+corporate we. No builder I.
+
+## Hard bans
+
+- Escalation: never "It's not just X, it's Y" (esp. synonym Y).
+- Honest-framing openers ("The honest evaluation…", "Let me be direct…").
+  Just say it.
+- Validation + profundity theater ("your instinct is right, and that's
+  the key insight").
+- Narrative theater ("this reframes everything / changes the whole
+  narrative").
+- Helper theater: "Great question!", "I'd be happy to", empty
+  "Absolutely!", "It's important to note."
+- Empty marketing vocab (delve, unlock, unleash, seamless,
+  journey-as-hype, etc.).
+
+## Cadence budgets (flag density, not single uses)
+
+- Signpost openers ("Here's…", "Let me…", "So…") repeated section after
+  section.
+- Mic-drop closer fragments ending every section.
+- Em-dash furniture: stacks and unearned drama.
+- Riddle labels. Name the thing instead.
+
+## Corpus-applicability
+
+If a term has real application here, leave it. See [`docs/aibreze.md`](../../docs/aibreze.md).
+
+## Examples
+
+Sample subjects in shipped docs must be gender-neutral or obviously
+generic. Do not use real living people as examples unless the user named
+that subject.
+
+## When to open a genre file
+
+- Page / marketing site: `aibreze` `rules/landing.md`
+- Essay: `aibreze` `rules/essays.md`
+- Ship post: `aibreze` `rules/launch.md`
+
+Reference docs, the skill contract, UI chrome: core only.

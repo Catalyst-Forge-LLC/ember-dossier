@@ -1,0 +1,10 @@
+---
+description: Plain git commits only — no --trailer attribution for ForgeTrail projects
+alwaysApply: true
+---
+
+# Git commit hygiene
+
+This repository uses **ForgeTrail**. Commits use plain `-m` or `-F` message files — no platform attribution trailers unless the user explicitly asks.
+
+Do not add `Made-with:`, `Co-Authored-By:`, or `git commit --trailer` unless the user explicitly requests them.

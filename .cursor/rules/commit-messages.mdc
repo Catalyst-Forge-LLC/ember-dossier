@@ -1,0 +1,28 @@
+---
+description: Commit message standards — applied when creating git commits
+alwaysApply: true
+---
+
+# Commit Messages
+
+Use these whenever you **create a commit**. This file defines *how* to write the message.
+
+## Ground truth
+
+- Base the commit message on **what is actually staged** (`git diff --staged`). Do not add, assume, or hallucinate features, files, or reasons not visible in that diff.
+
+## Format (default for substantive commits)
+
+Prefer a **multi-line** message.
+
+1. **Subject line (first line):** A short imperative summary (≈50–72 characters).
+2. **Blank line** after the subject.
+3. **Body:** Scope, what changed, and a short why when it is not obvious.
+
+**Trivial commits** may use a subject-only message.
+
+**ForgeTrail policy:** Do not add attribution trailers the user did not ask for. Use plain `-m` or `git commit -F path/to/msg.txt`.
+
+## Tone
+
+- Clear, professional US English (complete sentences in the body).

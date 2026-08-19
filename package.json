@@ -1,0 +1,44 @@
+{
+	"name": "ember-dossier",
+	"version": "0.0.1",
+	"private": true,
+	"type": "module",
+	"description": "A living dossier that prioritizes what is still current. Present tense first.",
+	"license": "MIT",
+	"author": "Catalyst Forge LLC",
+	"keywords": [
+		"ai",
+		"agents",
+		"skills",
+		"cursor",
+		"briefing",
+		"dossier"
+	],
+	"homepage": "https://emberdossier.dev",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Catalyst-Forge-LLC/ember-dossier.git"
+	},
+	"exports": {
+		"./skills/*": "./skills/*",
+		"./package.json": "./package.json"
+	},
+	"files": [
+		"skills",
+		"README.md",
+		"LICENSE"
+	],
+	"scripts": {
+		"site:dev": "pnpm --dir site dev",
+		"site:build": "pnpm --dir site run build",
+		"site:check": "pnpm --dir site check",
+		"site:preview": "pnpm --dir site preview"
+	},
+	"devDependencies": {
+		"aibreze": "link:../aibreze"
+	},
+	"engines": {
+		"node": ">=20"
+	},
+	"packageManager": "pnpm@10.30.1"
+}

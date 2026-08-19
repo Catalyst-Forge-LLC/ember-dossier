@@ -1,0 +1,190 @@
+{
+  "project": {
+    "name": "EmberDossier",
+    "created": "2026-08-19",
+    "description": "A recency-first briefing skill and FilePress explainer site. Present tense first; background second.",
+    "archetype": "product",
+    "status": "active"
+  },
+  "currentPhase": "1-architecture",
+  "phases": {
+    "1-architecture": {
+      "status": "in_progress",
+      "startedAt": "2026-08-19",
+      "completedAt": null,
+      "exitCriteriaMet": [],
+      "exitCriteriaRemaining": [
+        "Tech choices confirmed",
+        "Folder structure confirmed",
+        "Data model shape confirmed",
+        "First feature batch defined",
+        "Claude's understanding verified by user",
+        "PHASE_1_BRIEF.md created, complete, and locked (docs/)",
+        "Major decisions recorded in workflow_tracking.json decisions[]"
+      ],
+      "notes": [
+        "Kickoff 2026-08-19: GENESIS.md ingested. Skill + FilePress site + aiBreze. Examples must be gender-neutral or obviously generic. Brief is draft until the owner confirms stack, URL, and v1 boundaries."
+      ]
+    },
+    "2-scaffolding": {
+      "status": "not_started",
+      "startedAt": null,
+      "completedAt": null,
+      "exitCriteriaMet": [],
+      "exitCriteriaRemaining": [
+        "Site runs with pnpm site:dev",
+        "Skill is complete and loadable from skills/ember-dossier/",
+        "Hero page states the recency-first pattern",
+        "Install / skill page lets a reader point an agent at the skill",
+        "CONTEXT_PROMPT.md created and populated by merging PHASE_1_BRIEF.md (then template lessons as needed)",
+        "README.md created (via ForgeTrail MCP getTemplate — use the template name matching the doc, e.g. CONTEXT_PROMPT)",
+        "TODO.md created (via ForgeTrail MCP getTemplate — use the template name matching the doc, e.g. CONTEXT_PROMPT)",
+        "IDEAS.md created (via ForgeTrail MCP getTemplate — use the template name matching the doc, e.g. CONTEXT_PROMPT)",
+        "Phase 2 doc scope only per WORKFLOW §1a (no premature extra templates)"
+      ],
+      "notes": [
+        "Skill + static FilePress site. Phase 2 criteria rewritten from CRUD/PocketBase defaults. Logged as D5."
+      ]
+    },
+    "3-stabilization": {
+      "status": "not_started",
+      "startedAt": null,
+      "completedAt": null,
+      "exitCriteriaMet": [],
+      "exitCriteriaRemaining": [
+        "filepress check and filepress build succeed",
+        "Local preview serves home, skill, and about",
+        "Skill examples stay generic or gender-neutral",
+        "Error messages are human-readable (not just status codes)"
+      ],
+      "notes": []
+    },
+    "4-feature-iteration": {
+      "status": "not_started",
+      "startedAt": null,
+      "completedAt": null,
+      "exitCriteriaMet": [],
+      "exitCriteriaRemaining": [
+        "Core value proposition delivered",
+        "Hero flow works with a real subject the user names",
+        "Features tested beyond happy path"
+      ],
+      "notes": [],
+      "iterations": []
+    },
+    "5-refactoring": {
+      "status": "not_started",
+      "startedAt": null,
+      "completedAt": null,
+      "exitCriteriaMet": [],
+      "exitCriteriaRemaining": [
+        "No file exceeds ~500 lines without justification",
+        "Shared utilities extracted",
+        "No duplicated patterns",
+        "Build passes after each refactor"
+      ],
+      "notes": []
+    },
+    "6-strategic-review": {
+      "status": "not_started",
+      "startedAt": null,
+      "completedAt": null,
+      "exitCriteriaMet": [],
+      "exitCriteriaRemaining": [
+        "BRAND_AND_PRODUCT.md created (via ForgeTrail MCP getTemplate — use the template name matching the doc, e.g. CONTEXT_PROMPT)",
+        "TODO reorganized by brand value pillars",
+        "Features mapped to brand pillars",
+        "Gap between brand promise and product identified",
+        "IDEAS.md processed into TODO",
+        "Build order decided"
+      ],
+      "notes": []
+    },
+    "7-hardening": {
+      "status": "not_started",
+      "startedAt": null,
+      "completedAt": null,
+      "exitCriteriaMet": [],
+      "exitCriteriaRemaining": [
+        "CODE_QUALITY.md produced (via ForgeTrail MCP getTemplate — use the template name matching the doc, e.g. CONTEXT_PROMPT) and critical findings fixed",
+        "BLACK_HAT_REPORT.md produced (via ForgeTrail MCP runAudit with type black-hat) and critical/high findings fixed",
+        "All findings triaged into TODO.md with P0/P1/P2 priority",
+        "DEPLOYMENT.md created (via ForgeTrail MCP getTemplate — use the template name matching the doc, e.g. CONTEXT_PROMPT)",
+        "Docs alignment audit passed (ForgeTrail MCP runAudit with type docs-alignment)",
+        "All documentation consolidated and cross-referenced"
+      ],
+      "notes": [
+        "Dropped payments, auth, and LLM field-size rows. This product has no accounts or runtime LLM API in v1. Logged as D5."
+      ]
+    }
+  },
+  "decisions": [
+    {
+      "id": "D1",
+      "timestamp": "2026-08-19T12:15:00Z",
+      "phase": "1-architecture",
+      "decision": "EmberDossier is a skill plus a FilePress explainer site, not a PocketBase web app.",
+      "rationale": "GENESIS defines a prompting pattern. The site teaches the pattern. No accounts, sync, or shared data in v1.",
+      "alternatives_considered": [
+        "SvelteKit + PocketBase research app that generates dossiers at runtime",
+        "Skill only, no public site"
+      ]
+    },
+    {
+      "id": "D2",
+      "timestamp": "2026-08-19T12:15:00Z",
+      "phase": "1-architecture",
+      "decision": "Sample subjects in the skill, site, and GENESIS stay gender-neutral or obviously generic.",
+      "rationale": "Owner instruction. Real living people as examples invite bias and go stale. Generic orgs, places, topics, events, or clearly fictional names do the teaching job.",
+      "alternatives_considered": [
+        "Use well-known public figures as running examples"
+      ]
+    },
+    {
+      "id": "D3",
+      "timestamp": "2026-08-19T12:15:00Z",
+      "phase": "1-architecture",
+      "decision": "Publishable prose follows aiBreze. Product speaks as EmberDossier / it.",
+      "rationale": "House voice. Site and README are landing surfaces, not essays.",
+      "alternatives_considered": [
+        "No editorial overlay"
+      ]
+    },
+    {
+      "id": "D4",
+      "timestamp": "2026-08-19T12:15:00Z",
+      "phase": "1-architecture",
+      "decision": "ForgeTrail MCP-first. Persist `.forgetrail/` only. No vendored `_forgetrail/` tree.",
+      "rationale": "Owner asked to start with ForgeTrail. Methodology stays on the server.",
+      "alternatives_considered": [
+        "Copy Lite into the repo"
+      ]
+    },
+    {
+      "id": "D5",
+      "timestamp": "2026-08-19T12:15:00Z",
+      "phase": "1-architecture",
+      "decision": "Prune Phase 2 and Phase 7 exit criteria for a skill + static site. Keep archetype product.",
+      "rationale": "CRUD, PocketBase, auth, and payments do not apply. Site build, skill load, and docs alignment do.",
+      "alternatives_considered": [
+        "Leave the full-stack template rows and ignore them"
+      ]
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "G1",
+      "timestamp": "2026-08-19T12:15:00Z",
+      "phase": "1-architecture",
+      "issue": "Cursor MCP still pointed at Z:/workspace/forge-kit after the ForgeTrail rename. Server failed tool discovery until mcp.json used Z:/workspace/forgetrail and FORGETRAIL_ROOT.",
+      "resolution": "Updated ~/.cursor/mcp.json to the forgetrail server. Reload MCP if a session still shows forgekit."
+    }
+  ],
+  "sessions": [
+    {
+      "date": "2026-08-19",
+      "phase": "1-architecture",
+      "notes": "Greenfield kickoff from GENESIS.md. Tracking, Cursor rules, skill, FilePress site, aiBreze overlay. Brief drafted, not locked."
+    }
+  ]
+}

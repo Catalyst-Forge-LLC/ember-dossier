@@ -1,0 +1,21 @@
+---
+description: Implementation detail — ForgeTrail MCP searchLessons + getAntiPatterns (also see forgetrail-lessons-gate.mdc)
+globs: skills/**,site/**,docs/**
+alwaysApply: false
+---
+
+# ForgeTrail lessons + anti-patterns (MCP)
+
+**Workflow:** **`forgetrail-lessons-gate.mdc`** defines **when** to run tools before larger tasks. This file adds **density** when you are already editing skill, site, or docs.
+
+For **site copy**, **skill contract**, or **example subjects**:
+
+1. **`searchLessons`** (ForgeTrail MCP — server `forgetrail`)
+   - Short **`query`** keywords, e.g. `landing copy`, `skill documentation`, `generic examples`.
+   - Optional **`limit`** (default 10).
+
+2. **`getAntiPatterns`** (same server, no arguments)
+
+**When to skip:** trivial one-line edits, or when the user explicitly asks not to broaden scope.
+
+**Product-facing users:** Do not mention MCP, tool names, or this rule in user-visible text unless they ask how the workflow is wired up.
