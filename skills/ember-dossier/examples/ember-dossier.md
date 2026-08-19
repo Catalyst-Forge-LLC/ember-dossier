@@ -1,22 +1,27 @@
+---
+subject: EmberDossier
+as_of: 2026-08-19
+---
+
 # EmberDossier: EmberDossier
 
 This is an example. **EmberDossier** is the real product behind emberdossier.com. Facts are current as of 19 August 2026. It is a briefing, not a press release. No individual is named.
 
 ## 1. Snapshot
 
-EmberDossier is a recency-first briefing format and agent skill, first published on 19 August 2026 by Catalyst Forge LLC. The public explainer is [emberdossier.com](https://emberdossier.com). The installable npm package is [`get-ember-dossier@0.1.3`](https://www.npmjs.com/package/get-ember-dossier). It tells an agent how to write a seven-section briefing that leads with what is true now. It does not search the web, store dossiers, or run a research backend.
+EmberDossier is a recency-first briefing format and agent skill, first published on 19 August 2026 by Catalyst Forge LLC. The public explainer is [emberdossier.com](https://emberdossier.com). The installable npm package is [`get-ember-dossier@0.1.4`](https://www.npmjs.com/package/get-ember-dossier). It tells an agent how to write a seven-section briefing that leads with what is true now. It does not search the web, store dossiers, or run a research backend.
 
 Three names point at the same launch, and they are easy to mix up. **EmberDossier** is the format and the skill. **`get-ember-dossier`** is the npm package. **emberdossier.com** is the [FilePress](https://getfilepress.com/) explainer. The GitHub repo is [Catalyst-Forge-LLC/ember-dossier](https://github.com/Catalyst-Forge-LLC/ember-dossier).
 
 ## 2. Why it matters right now
 
-19 August 2026 is the first public day. The site is live. `get-ember-dossier@0.1.3` is the first real package drop after a same-day `0.0.0` name stake. Anyone who lands on the homepage or the package page has to decide whether this is a research desk or a write-up order. EmberDossier’s own site takes the second reading: a format, not a research service. The agent the reader already uses does the looking.
+19 August 2026 is the first public day. The site is live. `get-ember-dossier@0.1.4` is the first real package drop after a same-day `0.0.0` name stake. Anyone who lands on the homepage or the package page has to decide whether this is a research desk or a write-up order. EmberDossier’s own site takes the second reading: a format, not a research service. The agent the reader already uses does the looking.
 
 The invented Harborview example shows the seven sections on a civic fixture. This briefing shows the same sections on a real, quiet product with more than one artifact.
 
 ## 3. Recent developments & current activity
 
-- **19 August 2026.** EmberDossier launched: explainer at emberdossier.com, source on GitHub, skill on npm as [`get-ember-dossier`](https://www.npmjs.com/package/get-ember-dossier) (`0.0.0`, then `0.1.3`).
+- **19 August 2026.** EmberDossier launched: explainer at emberdossier.com, source on GitHub, skill on npm as [`get-ember-dossier`](https://www.npmjs.com/package/get-ember-dossier) (`0.0.0`, then `0.1.4`).
 - **Same day.** Three filled examples shipped with the skill: invented Harborview Public Library, plus real briefings on EmberDossier and Framework Computer.
 
 ## 4. Controversies & criticisms
@@ -35,7 +40,7 @@ Catalyst Forge LLC publishes it. The explainer is a static [FilePress](https://g
 
 - **Catalyst Forge LLC** — publisher. Site: [catalystforge.com](https://www.catalystforge.com).
 - **[FilePress](https://getfilepress.com/)** (`getfilepress`) — engine that renders the explainer.
-- **npm** — registry for `get-ember-dossier@0.1.3`.
+- **npm** — registry for `get-ember-dossier@0.1.4`.
 - **GitHub (`Catalyst-Forge-LLC/ember-dossier`)** — public source.
 - **emberdossier.com** — public explainer and install path.
 - **Skill hosts** — any agent that loads a named folder containing `SKILL.md`.

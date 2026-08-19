@@ -8,6 +8,11 @@ This is an example. **Framework Computer** is a real company. Facts are current 
 
 # EmberDossier: Framework Computer
 
+```yaml
+subject: Framework Computer
+as_of: 2026-08-19
+```
+
 ## 1. Snapshot
 
 Framework Computer is a San Francisco hardware company that designs modular, repairable, upgradeable laptops and desktops. Nirav Patel founded it in January 2020. As of 19 August 2026 it is in an active product cycle: a refreshed Framework Laptop 12 announced the day before, Linux preloads on more than one model, and a public parts marketplace. It is one of the better-known consumer brands arguing for right-to-repair in laptops.

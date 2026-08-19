@@ -76,7 +76,7 @@ User says “Give me an EmberDossier on Northwind Analytics” → agent loads t
 **Core entities:**
 
 - **Subject** — whatever the user named (org, place, topic, event, or person).
-- **Dossier** — one Markdown briefing with seven sections plus source types.
+- **Dossier** — one Markdown briefing: YAML (`subject`, `as_of`, optional `updated_from`), seven sections, source types.
 - **Refinement** — a follow-up query suggested at the end.
 
 **Relationships:**
@@ -136,6 +136,8 @@ Skip. Site and skill are hand-authored. Dossiers are produced by the *consumer* 
 **D13.** Call filled briefings **examples** on the site and in the skill. Nav and index are `/examples`. “Example subjects” is the house phrase for demo subjects.
 
 **D14.** Section 6 is **Key people & entities in the orbit**. “Their” dropped; the orbit does not need a pronoun.
+
+**D15.** Every dossier opens with YAML: `subject`, `as_of`, optional `updated_from`. No hosted store. Update *procedure* still later.
 
 ---
 

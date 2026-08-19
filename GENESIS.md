@@ -91,6 +91,8 @@ Create a current, comprehensive, and neutral dossier on [SUBJECT].
 
 **Core principle:** Bias strongly toward the most recent and relevant information by default. Lead with what is currently notable or active. Treat deeper historical background as secondary — keep it concise unless it is essential for understanding the present.
 
+Begin every dossier with YAML frontmatter (`subject`, `as_of`, optional `updated_from`), then the seven sections.
+
 Structure the response with these sections (adapt as needed):
 
 1. **Snapshot**  

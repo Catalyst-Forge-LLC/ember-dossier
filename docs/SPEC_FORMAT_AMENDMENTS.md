@@ -122,9 +122,9 @@ Given an existing dossier and a cutoff (`AS_OF` or “last N days”):
 
 Regenerate-from-scratch is a different ask (“fresh EmberDossier”). Do not treat update as a synonym.
 
-### Tiny metadata (later, optional)
+### Tiny metadata (now)
 
-YAML (or an equivalent header) on the Markdown artifact, not a database:
+YAML on the Markdown artifact, not a database. In the skill as of `0.1.4`.
 
 ```yaml
 subject: Framework Computer
@@ -132,13 +132,13 @@ as_of: 2026-08-19
 updated_from: 2026-07-20
 ```
 
-Optional later: source classes and a freshness note.
+`updated_from` is omitted on a first write. Optional later: source classes and a freshness note.
 
 An agent can then say: this dossier is 43 days old; refresh current status before relying on it.
 
-### Not in the first fold of A and B
+### Still later
 
-No schema, no hosted store, no required frontmatter on today’s examples. Write the procedure into the skill when this amendment is accepted as “next,” not when A and B ship.
+The update *procedure* (compare, age out controversies, leave background). No hosted store.
 
 ---
 
@@ -159,7 +159,7 @@ No schema, no hosted store, no required frontmatter on today’s examples. Write
 3. Touch examples only where a heading or principle name appears, or where an honest-empty would teach the rule (the EmberDossier self-example already has one).
 4. Site About: keep “Recency by default”; add no-heat in one line if the About principles list should match GENESIS.
 5. Bump the npm package when the skill text changes.
-6. C stays a follow-on spec until you say it is next.
+6. C’s YAML is in the skill. The update procedure stays a follow-on until you say it is next.
 
 ---
 
@@ -169,6 +169,6 @@ Confirm or rewrite:
 
 1. **A** — ship no-heat inflation in the skill now, including honest empties for recent developments as well as why-it-matters and controversies?
 2. **B** — “Recency priority by default” as the principle name, “Present tense first” unchanged as the maxim?
-3. **C** — skill-level update procedure later; metadata later; no hosted store in this repo?
+3. **C** — YAML is in. Skill-level update procedure later; no hosted store in this repo?
 
 This file is the proposal. It is not the contract until you say so.

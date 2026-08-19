@@ -1,3 +1,8 @@
+---
+subject: Framework Computer
+as_of: 2026-08-19
+---
+
 # EmberDossier: Framework Computer
 
 This is an example. **Framework Computer** is a real company. Facts are current as of 19 August 2026. EmberDossier and Catalyst Forge have no affiliation with Framework Computer. The founder is named because this briefing named that person.

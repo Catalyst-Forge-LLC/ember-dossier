@@ -11,6 +11,20 @@ Create a current, comprehensive, and neutral dossier on [SUBJECT].
 
 EmberDossier is a format, not a research agent. Use the host’s search or tools when you need facts newer than training data. Do not invent currency.
 
+Begin every dossier with YAML frontmatter, then the seven sections.
+
+```yaml
+subject: Framework Computer
+as_of: 2026-08-19
+updated_from: 2026-07-20
+```
+
+- `subject` — required. The named subject.
+- `as_of` — required. ISO date (`YYYY-MM-DD`) of this briefing.
+- `updated_from` — optional. ISO date of the dossier this update started from. Omit on a first write. On an update, set it to the previous `as_of` and set `as_of` to today.
+
+An agent can tell how stale a dossier is from `as_of`. Do not invent dates.
+
 Structure the response with these sections (adapt as needed):
 
 1. **Snapshot**  

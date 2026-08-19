@@ -8,6 +8,11 @@ This is an example. **Harborview** is invented. Dates and figures are fixtures s
 
 # EmberDossier: Harborview Public Library
 
+```yaml
+subject: Harborview Public Library
+as_of: 2026-08-19
+```
+
 ## 1. Snapshot
 
 Harborview Public Library is a single-branch municipal library in the fictional city of Harborview. As of August 2026 it is open, with reduced hours, while the west wing stays closed for a renovation that has slipped twice. The current public date for a full reopening is 12 March 2027. Circulation is running at about 80% of the 2024 peak. The library remains the city’s busiest indoor public building on weekday afternoons.

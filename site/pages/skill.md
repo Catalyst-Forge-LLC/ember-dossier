@@ -32,7 +32,7 @@ Same folder, at `skills/ember-dossier/`.
 - Update the EmberDossier with anything from the last 30 days.
 - Compare these two EmberDossiers.
 
-The agent should lead with current status, keep background short, flag contested claims, and end with refinements plus source types.
+The agent should open with YAML (`subject`, `as_of`, optional `updated_from`), lead with current status, keep background short, flag contested claims, and end with refinements plus source types.
 
 ## What it is not
 
