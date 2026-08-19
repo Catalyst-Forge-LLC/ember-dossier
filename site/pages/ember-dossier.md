@@ -22,12 +22,8 @@ The invented Harborview example shows the seven sections on a civic fixture. Thi
 
 ## 3. Recent developments & current activity
 
-- **19 August 2026.** The spec (`GENESIS.md`) locked the seven section names and the recency-first rule: present tense first, background second. Example subjects in shipped docs stay generic unless the reader names a real one.
-- **Same day.** A FilePress explainer went live at emberdossier.com. Pages: Home, Skill, Examples, About, and a short Writing post (`Present tense first`). Engine: `getfilepress` from npm. No auth, no application database.
-- **Same day, 13:57 UTC.** [`get-ember-dossier@0.0.0`](https://www.npmjs.com/package/get-ember-dossier) published as a name stake. MIT. Homepage set to emberdossier.com. Author: Catalyst Forge LLC.
-- **Same day, later.** [`get-ember-dossier@0.1.1`](https://www.npmjs.com/package/get-ember-dossier) published. Install is `pnpm add get-ember-dossier`, then copy `skills/ember-dossier/` into the agent’s skills directory. The package now includes three filled examples: Harborview Public Library, EmberDossier, and Framework Computer.
-- **Same day.** Source published at [github.com/Catalyst-Forge-LLC/ember-dossier](https://github.com/Catalyst-Forge-LLC/ember-dossier).
-- **Same day.** First filled example: Harborview Public Library — invented municipal branch, roles instead of names, operational disputes only.
+- **19 August 2026.** EmberDossier launched: explainer at emberdossier.com, source on GitHub, skill on npm as [`get-ember-dossier`](https://www.npmjs.com/package/get-ember-dossier) (`0.0.0`, then `0.1.1`).
+- **Same day.** Three filled examples shipped with the skill: invented Harborview Public Library, plus real briefings on EmberDossier and Framework Computer.
 
 ## 4. Controversies & criticisms
 
