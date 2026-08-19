@@ -1,6 +1,6 @@
 ---
 title: Present tense first.
-description: A living dossier that prioritizes what is still current. Briefings that start now, not at the origin story.
+description: A living dossier that prioritizes what’s still hot.
 order: 0
 ---
 
@@ -23,7 +23,7 @@ In research, journalism, diligence, and agent handoffs, that order is backwards.
 - I need a fresh EmberDossier on the current state of Project Lantern.
 - Give me an EmberDossier on the Harborview transit expansion.
 
-Sample subjects stay generic on purpose. [Harborview Public Library](/sample) is a filled fixture: civic, invented, no real people. When you name a real subject, the dossier is about that subject.
+Sample subjects stay generic on purpose. [Harborview Public Library](/sample) is a filled fixture: civic, invented, no real people.
 
 ## The seven sections
 
@@ -35,7 +35,7 @@ Sample subjects stay generic on purpose. [Harborview Public Library](/sample) is
 6. Key people and entities in their orbit
 7. Possible refinements of the subject
 
-Same shape every time. Humans can read it. Agents can update, compare, and hand it off.
+Same shape every time. Humans read it. Agents update, compare, and hand it off.
 
 EmberDossier is a format. It is not a research service. The agent you already use does the looking.
 

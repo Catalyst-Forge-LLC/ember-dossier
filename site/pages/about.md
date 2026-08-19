@@ -19,7 +19,7 @@ A shared name helps:
 
 1. **Recency by default.** Current status first. History is supporting context.
 2. **Neutral and sourced.** Facts over narrative. Flag contested claims.
-3. **Orbit awareness.** Who surrounds the subject now.
+3. **Who’s in the orbit.** The subject is partly who surrounds it now.
 4. **Refinement built in.** Every dossier ends with better next questions.
 5. **Agent-native.** The shape is stable enough to request, update, and hand off.
 

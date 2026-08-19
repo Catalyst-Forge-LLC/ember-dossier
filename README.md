@@ -18,8 +18,6 @@ Sample subjects are generic on purpose. A filled fixture: [Harborview Public Lib
 
 ## Install
 
-The npm package is **`get-ember-dossier`**. Do not install `ember-dossier`. That name is an unrelated 2017 Ember addon. Unscoped `emberdossier` is blocked as too similar.
-
 ```bash
 pnpm add get-ember-dossier
 ```

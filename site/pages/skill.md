@@ -4,7 +4,7 @@ description: Install EmberDossier from npm, then copy one folder that contains S
 order: 1
 ---
 
-EmberDossier is Markdown you point an agent at. The package name on npm is **`get-ember-dossier`**. The hyphenated name `ember-dossier` is an unrelated 2017 Ember addon. Unscoped `emberdossier` is blocked as too similar. Do not install those.
+EmberDossier is Markdown you point an agent at. Install **`get-ember-dossier`** from npm, then copy the skill folder.
 
 ## From npm
 
