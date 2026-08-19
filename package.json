@@ -1,6 +1,6 @@
 {
 	"name": "get-ember-dossier",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"private": false,
 	"type": "module",
 	"description": "A living dossier that prioritizes what is still current. Present tense first.",

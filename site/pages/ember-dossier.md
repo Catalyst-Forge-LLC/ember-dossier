@@ -10,13 +10,13 @@ This is an example. **EmberDossier** is the real product behind this site. Facts
 
 ## 1. Snapshot
 
-EmberDossier is a recency-first briefing format and agent skill, first published on 19 August 2026 by Catalyst Forge LLC. The public explainer is [emberdossier.com](https://emberdossier.com). The installable npm package is [`get-ember-dossier@0.0.0`](https://www.npmjs.com/package/get-ember-dossier). It tells an agent how to write a seven-section briefing that leads with what is true now. It does not search the web, store dossiers, or run a research backend.
+EmberDossier is a recency-first briefing format and agent skill, first published on 19 August 2026 by Catalyst Forge LLC. The public explainer is [emberdossier.com](https://emberdossier.com). The installable npm package is [`get-ember-dossier@0.1.0`](https://www.npmjs.com/package/get-ember-dossier). It tells an agent how to write a seven-section briefing that leads with what is true now. It does not search the web, store dossiers, or run a research backend.
 
 Three names point at the same launch, and they are easy to mix up. **EmberDossier** is the format and the skill. **`get-ember-dossier`** is the npm package. **emberdossier.com** is the FilePress explainer. The GitHub repo is [Catalyst-Forge-LLC/ember-dossier](https://github.com/Catalyst-Forge-LLC/ember-dossier).
 
 ## 2. Why it matters right now
 
-19 August 2026 is the first public day. The site is live. The npm package is a `0.0.0` name stake, not a 1.0. Anyone who lands on the homepage or the package page has to decide whether this is a research desk or a write-up order. EmberDossier’s own site takes the second reading: a format, not a research service. The agent the reader already uses does the looking.
+19 August 2026 is the first public day. The site is live. `get-ember-dossier@0.1.0` is the first real package drop after a same-day `0.0.0` name stake. Anyone who lands on the homepage or the package page has to decide whether this is a research desk or a write-up order. EmberDossier’s own site takes the second reading: a format, not a research service. The agent the reader already uses does the looking.
 
 The invented Harborview example shows the seven sections on a civic fixture. This briefing shows the same sections on a real, quiet product with more than one artifact.
 
@@ -24,7 +24,8 @@ The invented Harborview example shows the seven sections on a civic fixture. Thi
 
 - **19 August 2026.** The spec (`GENESIS.md`) locked the seven section names and the recency-first rule: present tense first, background second. Example subjects in shipped docs stay generic unless the reader names a real one.
 - **Same day.** A FilePress explainer went live at emberdossier.com. Pages: Home, Skill, Examples, About, and a short Writing post (`Present tense first`). Engine: `getfilepress` from npm. No auth, no application database.
-- **Same day, 13:57 UTC.** [`get-ember-dossier@0.0.0`](https://www.npmjs.com/package/get-ember-dossier) published. MIT. Homepage set to emberdossier.com. Author: Catalyst Forge LLC. Install is `pnpm add get-ember-dossier`, then copy `skills/ember-dossier/` into the agent’s skills directory.
+- **Same day, 13:57 UTC.** [`get-ember-dossier@0.0.0`](https://www.npmjs.com/package/get-ember-dossier) published as a name stake. MIT. Homepage set to emberdossier.com. Author: Catalyst Forge LLC.
+- **Same day, later.** [`get-ember-dossier@0.1.0`](https://www.npmjs.com/package/get-ember-dossier) published. Install is `pnpm add get-ember-dossier`, then copy `skills/ember-dossier/` into the agent’s skills directory. The package now includes three filled examples: Harborview Public Library, EmberDossier, and Framework Computer.
 - **Same day.** Source published at [github.com/Catalyst-Forge-LLC/ember-dossier](https://github.com/Catalyst-Forge-LLC/ember-dossier).
 - **Same day.** First filled example: Harborview Public Library — invented municipal branch, roles instead of names, operational disputes only.
 
@@ -44,7 +45,7 @@ Catalyst Forge LLC publishes it. The explainer is a static FilePress site. The c
 
 - **Catalyst Forge LLC** — publisher. Site: [catalystforge.com](https://www.catalystforge.com).
 - **FilePress (`getfilepress`)** — engine that renders the explainer.
-- **npm** — registry for `get-ember-dossier@0.0.0`.
+- **npm** — registry for `get-ember-dossier@0.1.0`.
 - **GitHub (`Catalyst-Forge-LLC/ember-dossier`)** — public source.
 - **emberdossier.com** — public explainer and install path.
 - **Cursor** — the documented skill layout is a folder that contains `SKILL.md`.
