@@ -8,13 +8,14 @@ export default defineFilepressConfig({
 		'A living dossier that prioritizes what is still current. Present tense first.',
 	tagline: 'Present tense first.',
 	lede: 'A living dossier that prioritizes what’s still hot.',
-	url: 'https://emberdossier.dev',
+	url: 'https://emberdossier.com',
 	author: 'Catalyst Forge LLC',
 	logo: '/favicon.svg',
 	homePage: 'home',
 	nav: [
 		{ label: 'Home', href: '/' },
 		{ label: 'Skill', href: '/skill' },
+		{ label: 'Sample', href: '/sample' },
 		{ label: 'About', href: '/about' },
 		{ label: 'Writing', href: '/writing' },
 		{ label: 'GitHub', href: github, icon: 'github' }
@@ -22,6 +23,7 @@ export default defineFilepressConfig({
 	footerLinks: [
 		{ label: 'RSS', href: '/rss.xml' },
 		{ label: 'Skill', href: '/skill' },
+		{ label: 'Sample', href: '/sample' },
 		{ label: 'GitHub', href: github, icon: 'github' }
 	],
 	topics: [

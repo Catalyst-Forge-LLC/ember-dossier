@@ -10,6 +10,13 @@
 		"check": "filepress check"
 	},
 	"devDependencies": {
-		"getfilepress": "link:../../filepress"
+		"@types/node": "^22.20.1",
+		"getfilepress": "^0.1.5"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"esbuild",
+			"getfilepress"
+		]
 	}
 }

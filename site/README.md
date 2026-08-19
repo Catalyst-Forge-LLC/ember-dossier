@@ -1,12 +1,8 @@
 # EmberDossier site
 
-FilePress explainer for EmberDossier. Local engine via `link:../../filepress`.
+FilePress explainer for [emberdossier.com](https://emberdossier.com). Engine from npm: `getfilepress`.
 
 ```bash
-# once in the engine repo
-cd ../../filepress && pnpm install
-
-# in this site
 pnpm install
 pnpm dev
 pnpm build    # → build/

@@ -1,7 +1,7 @@
 {
-	"name": "ember-dossier",
+	"name": "emberdossier",
 	"version": "0.0.1",
-	"private": true,
+	"private": false,
 	"type": "module",
 	"description": "A living dossier that prioritizes what is still current. Present tense first.",
 	"license": "MIT",
@@ -14,7 +14,13 @@
 		"briefing",
 		"dossier"
 	],
-	"homepage": "https://emberdossier.dev",
+	"homepage": "https://emberdossier.com",
+	"bugs": {
+		"url": "https://github.com/Catalyst-Forge-LLC/ember-dossier/issues"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/Catalyst-Forge-LLC/ember-dossier.git"

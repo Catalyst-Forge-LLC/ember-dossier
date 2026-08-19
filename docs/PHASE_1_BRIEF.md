@@ -46,7 +46,7 @@ User says “Give me an EmberDossier on Northwind Analytics” → agent loads t
 ## 3. Constraints
 
 - **Technical:** TypeScript ESM, pnpm, FilePress static site, Cursor project skill. No PocketBase, no auth, no runtime LLM API in this repo. The *consumer* agent may use search; EmberDossier does not ship a research backend.
-- **Business / timeline:** Kickoff now. Public URL proposed, not confirmed.
+- **Business / timeline:** Domain **emberdossier.com**. npm name **`emberdossier`** (`ember-dossier` is taken).
 - **Explicit non-goals for v1:** (see section 10)
 
 ---
@@ -55,10 +55,12 @@ User says “Give me an EmberDossier on Northwind Analytics” → agent loads t
 
 | Area | Choice | Status | Notes / WHY |
 | --- | --- | --- | --- |
-| Product shape | Agent skill + FilePress site | proposed | GENESIS is a pattern, not an app |
+| Product shape | Agent skill + FilePress site | confirmed | GENESIS is a pattern, not an app |
 | Language | TypeScript (ESM) | proposed | House default |
 | Package manager | pnpm | proposed | House default |
-| Site engine | FilePress (`getfilepress`, link to sibling) | proposed | Owner ask |
+| Site engine | FilePress (`getfilepress` from npm, ^0.1.5) | confirmed | Owner: use the published package |
+| Public URL | https://emberdossier.com | confirmed | Owner |
+| npm package | `emberdossier` | confirmed | `ember-dossier` is an unrelated Ember addon |
 | Voice | aiBreze + overlay | proposed | Owner ask |
 | DB / backend | none | proposed | Static site; skill is Markdown |
 | Auth / storage | none | proposed | No state that outlives the browser |
@@ -90,7 +92,7 @@ One subject → one current dossier. Updates replace or annotate recent-developm
 | Integration | Purpose | Auth / secrets | Risk notes |
 | --- | --- | --- | --- |
 | Consumer-agent search | Fresh facts when the *user’s* agent has search | Lives in the host agent | EmberDossier is not a research service |
-| FilePress / Cloudflare Pages | Public explainer | Wrangler / Pages project | Confirm project name and domain |
+| FilePress / Cloudflare Pages | Public explainer | Wrangler / Pages project | Origin: emberdossier.com |
 | LocalBerth | Stable local port | none | Fallback 5189 if CLI missing |
 
 ## 6a. Content-generation pattern
@@ -119,15 +121,22 @@ Skip. Site and skill are hand-authored. Dossiers are produced by the *consumer* 
 
 **D5.** Prune Phase 2 / Phase 7 full-stack rows (CRUD, auth, payments). Keep archetype `product`.
 
+**D6.** Public site is **emberdossier.com**.
+
+**D7.** Publish the skill as npm **`emberdossier`**. WHY: `ember-dossier` is taken by an abandoned 2017 Ember addon.
+
+**D8.** FilePress via published **`getfilepress`**, not a sibling `link:`.
+
+**D9.** Filled sample is Harborview Public Library: civic, invented, roles not names, operational disputes only.
+
 ---
 
 ## 9. Open questions (before or during Phase 2)
 
 | # | Question | Owner / resolve by |
 | - | -------- | ------------------ |
-| 1 | Public URL: `https://emberdossier.dev` or another host? | owner |
-| 2 | Publish the skill on npm (Docupuncture-style) in v1, or Cursor-folder only? | owner |
-| 3 | Include a filled generic sample dossier on the site, or usage lines only? | owner |
+| 1 | Lock this brief and start Phase 2 docs (`CONTEXT_PROMPT`, `TODO`, `IDEAS`)? | owner |
+| 2 | Cloudflare Pages project name for emberdossier.com? | owner |
 
 ---
 

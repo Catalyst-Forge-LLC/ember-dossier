@@ -44,8 +44,10 @@ Structure the response with these sections (adapt as needed):
 
 ## Example asks
 
+- “Give me an EmberDossier on Harborview Public Library.”
 - “Give me an EmberDossier on Northwind Analytics.”
 - “Update the EmberDossier with anything from the last 30 days.”
 - “Read the EmberDossier first, then answer the question.”
 - “I need a fresh EmberDossier on the current state of Project Lantern.”
-- “Give me an EmberDossier on the Harborview transit expansion.”
+
+A filled, invented sample is in [examples/harborview-public-library.md](examples/harborview-public-library.md). Use it to see section order. Do not treat it as reporting.

@@ -74,11 +74,11 @@ In short: it turns an ad-hoc research habit into a reusable tool.
 
 Use gender-neutral language. Sample subjects should be gender-neutral or obviously generic (organizations, places, topics, events, or clearly fictional names). Do not use real living people as examples unless the user named that subject.
 
+- “Give me an EmberDossier on Harborview Public Library.”
 - “Give me an EmberDossier on Northwind Analytics.”
 - “Update the EmberDossier with anything from the last 30 days.”
 - “Read the EmberDossier first, then answer the question.”
 - “I need a fresh EmberDossier on the current state of Project Lantern.”
-- “Give me an EmberDossier on the Harborview transit expansion.”
 
 ---
 

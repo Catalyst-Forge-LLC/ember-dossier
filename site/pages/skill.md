@@ -1,10 +1,20 @@
 ---
 title: Skill
-description: Point an agent at EmberDossier. Copy one folder that contains SKILL.md.
+description: Install EmberDossier from npm, then copy one folder that contains SKILL.md.
 order: 1
 ---
 
-EmberDossier is Markdown you point an agent at. Copy `skills/ember-dossier/` into the agent’s skills directory. Cursor wants a named folder that contains `SKILL.md`.
+EmberDossier is Markdown you point an agent at. The package name on npm is **`emberdossier`**. The hyphenated name `ember-dossier` is an unrelated 2017 Ember addon. Do not install that.
+
+## From npm
+
+```bash
+pnpm add emberdossier
+```
+
+Copy `node_modules/emberdossier/skills/ember-dossier/` into the agent’s skills directory. Cursor wants a named folder that contains `SKILL.md`.
+
+A filled sample lives at `skills/ember-dossier/examples/harborview-public-library.md` and on this site at [Sample](/sample).
 
 ## From this repo
 
@@ -12,15 +22,11 @@ EmberDossier is Markdown you point an agent at. Copy `skills/ember-dossier/` int
 git clone https://github.com/Catalyst-Forge-LLC/ember-dossier.git
 ```
 
-Then copy `skills/ember-dossier/` into:
-
-- Cursor: `.cursor/skills/ember-dossier/`
-- Other hosts: that product’s skill folder
-
-This checkout already has the Cursor copy.
+Same folder, at `skills/ember-dossier/`. This checkout already has a Cursor copy under `.cursor/skills/ember-dossier/`.
 
 ## What you say
 
+- Give me an EmberDossier on Harborview Public Library.
 - Give me an EmberDossier on Northwind Analytics.
 - Update the EmberDossier with anything from the last 30 days.
 - Compare these two EmberDossiers.
@@ -33,4 +39,4 @@ It does not crawl the web for you. It does not store dossiers. It tells the agen
 
 If you need live facts, use an agent that can search. EmberDossier only fixes the order of the write-up.
 
-[About the pattern](/about) · [GitHub](https://github.com/Catalyst-Forge-LLC/ember-dossier)
+[Sample](/sample) · [About](/about) · [GitHub](https://github.com/Catalyst-Forge-LLC/ember-dossier)

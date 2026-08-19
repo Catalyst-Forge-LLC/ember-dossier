@@ -12,7 +12,7 @@ In research, journalism, diligence, and agent handoffs, that order is backwards.
 
 <div class="cta-row">
   <a class="cta cta-primary" href="/skill">Get the skill</a>
-  <a class="cta cta-secondary" href="/about">How it works</a>
+  <a class="cta cta-secondary" href="/sample">Read a sample</a>
 </div>
 
 ## Ask it like this
@@ -23,7 +23,7 @@ In research, journalism, diligence, and agent handoffs, that order is backwards.
 - I need a fresh EmberDossier on the current state of Project Lantern.
 - Give me an EmberDossier on the Harborview transit expansion.
 
-Sample subjects stay generic on purpose. When you name a real subject, the dossier is about that subject.
+Sample subjects stay generic on purpose. [Harborview Public Library](/sample) is a filled fixture: civic, invented, no real people. When you name a real subject, the dossier is about that subject.
 
 ## The seven sections
 
@@ -39,6 +39,6 @@ Same shape every time. Humans can read it. Agents can update, compare, and hand 
 
 EmberDossier is a format. It is not a research service. The agent you already use does the looking.
 
-[Get the skill](/skill) · [About](/about) · [GitHub](https://github.com/Catalyst-Forge-LLC/ember-dossier)
+[Get the skill](/skill) · [Sample](/sample) · [About](/about) · [GitHub](https://github.com/Catalyst-Forge-LLC/ember-dossier)
 
 Built by [Catalyst Forge LLC](https://www.catalystforge.com). MIT.

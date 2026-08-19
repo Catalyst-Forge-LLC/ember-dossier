@@ -23,7 +23,8 @@
         "Major decisions recorded in workflow_tracking.json decisions[]"
       ],
       "notes": [
-        "Kickoff 2026-08-19: GENESIS.md ingested. Skill + FilePress site + aiBreze. Examples must be gender-neutral or obviously generic. Brief is draft until the owner confirms stack, URL, and v1 boundaries."
+        "Kickoff 2026-08-19: GENESIS.md ingested. Skill + FilePress site + aiBreze. Examples must be gender-neutral or obviously generic.",
+        "2026-08-19 later: owner set domain emberdossier.com, FilePress from npm, skill on npm as emberdossier. Filled sample is Harborview Public Library. Brief still draft."
       ]
     },
     "2-scaffolding": {
@@ -169,6 +170,49 @@
       "alternatives_considered": [
         "Leave the full-stack template rows and ignore them"
       ]
+    },
+    {
+      "id": "D6",
+      "timestamp": "2026-08-19T13:50:00Z",
+      "phase": "1-architecture",
+      "decision": "Public URL is https://emberdossier.com.",
+      "rationale": "Owner registered the domain.",
+      "alternatives_considered": [
+        "emberdossier.dev"
+      ]
+    },
+    {
+      "id": "D7",
+      "timestamp": "2026-08-19T13:50:00Z",
+      "phase": "1-architecture",
+      "decision": "npm package name is emberdossier, not ember-dossier.",
+      "rationale": "ember-dossier is taken by an abandoned 2017 Ember CLI addon (0.0.3, unrelated).",
+      "alternatives_considered": [
+        "ember-dossier (blocked)",
+        "getemberdossier",
+        "@catalyst-forge/ember-dossier"
+      ]
+    },
+    {
+      "id": "D8",
+      "timestamp": "2026-08-19T13:50:00Z",
+      "phase": "1-architecture",
+      "decision": "Site depends on published getfilepress from npm, not a sibling link.",
+      "rationale": "Owner: FilePress is an npm package. Clones should not need the filepress repo.",
+      "alternatives_considered": [
+        "link:../../filepress"
+      ]
+    },
+    {
+      "id": "D9",
+      "timestamp": "2026-08-19T13:50:00Z",
+      "phase": "1-architecture",
+      "decision": "Filled sample is Harborview Public Library: civic, invented, roles not names, operational disputes only.",
+      "rationale": "Owner asked for a generic, non-controversial filled dossier. A library renovation teaches all seven sections without picking a news-cycle fight.",
+      "alternatives_considered": [
+        "Usage lines only",
+        "A corporate or political subject"
+      ]
     }
   ],
   "gotchas": [
@@ -178,6 +222,20 @@
       "phase": "1-architecture",
       "issue": "Cursor MCP still pointed at Z:/workspace/forge-kit after the ForgeTrail rename. Server failed tool discovery until mcp.json used Z:/workspace/forgetrail and FORGETRAIL_ROOT.",
       "resolution": "Updated ~/.cursor/mcp.json to the forgetrail server. Reload MCP if a session still shows forgekit."
+    },
+    {
+      "id": "G2",
+      "timestamp": "2026-08-19T13:50:00Z",
+      "phase": "1-architecture",
+      "issue": "npm package name ember-dossier is taken by an unrelated 2017 Ember CLI addon (0.0.3).",
+      "resolution": "Publish as emberdossier. Document the collision on the install page and README."
+    },
+    {
+      "id": "G3",
+      "timestamp": "2026-08-19T14:00:00Z",
+      "phase": "1-architecture",
+      "issue": "filepress check against npm getfilepress@0.1.5 fails without @types/node in the site (svelte-check walks the engine).",
+      "resolution": "Add @types/node as a site devDependency. Sibling link did not need this because the engine workspace already had the types."
     }
   ],
   "sessions": [
@@ -185,6 +243,11 @@
       "date": "2026-08-19",
       "phase": "1-architecture",
       "notes": "Greenfield kickoff from GENESIS.md. Tracking, Cursor rules, skill, FilePress site, aiBreze overlay. Brief drafted, not locked."
+    },
+    {
+      "date": "2026-08-19",
+      "phase": "1-architecture",
+      "notes": "Confirmed emberdossier.com, npm name emberdossier, getfilepress from npm, Harborview Public Library sample."
     }
   ]
 }
