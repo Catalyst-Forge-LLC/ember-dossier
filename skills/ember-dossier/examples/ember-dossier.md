@@ -6,7 +6,7 @@ This is an example. **EmberDossier** is the real product behind emberdossier.com
 
 EmberDossier is a recency-first briefing format and agent skill, first published on 19 August 2026 by Catalyst Forge LLC. The public explainer is [emberdossier.com](https://emberdossier.com). The installable npm package is [`get-ember-dossier@0.1.1`](https://www.npmjs.com/package/get-ember-dossier). It tells an agent how to write a seven-section briefing that leads with what is true now. It does not search the web, store dossiers, or run a research backend.
 
-Three names point at the same launch, and they are easy to mix up. **EmberDossier** is the format and the skill. **`get-ember-dossier`** is the npm package. **emberdossier.com** is the FilePress explainer. The GitHub repo is [Catalyst-Forge-LLC/ember-dossier](https://github.com/Catalyst-Forge-LLC/ember-dossier).
+Three names point at the same launch, and they are easy to mix up. **EmberDossier** is the format and the skill. **`get-ember-dossier`** is the npm package. **emberdossier.com** is the [FilePress](https://getfilepress.com/) explainer. The GitHub repo is [Catalyst-Forge-LLC/ember-dossier](https://github.com/Catalyst-Forge-LLC/ember-dossier).
 
 ## 2. Why it matters right now
 
@@ -29,12 +29,12 @@ The live tension is definitional, and the site states it in the open. EmberDossi
 
 The pattern is small on purpose. A dossier always uses the same seven sections, in this order: Snapshot; Why it matters right now; Recent developments & current activity; Controversies & criticisms; Background; Key people & entities in their orbit; Possible refinements of the subject. It ends by naming source types.
 
-Catalyst Forge LLC publishes it. The explainer is a static FilePress site. The consumer agent supplies search and judgment. Shipped examples stay gender-neutral or obviously generic; this briefing on the product exists because the subject was named.
+Catalyst Forge LLC publishes it. The explainer is a static [FilePress](https://getfilepress.com/) site. The consumer agent supplies search and judgment. Shipped examples stay gender-neutral or obviously generic; this briefing on the product exists because the subject was named.
 
 ## 6. Key people & entities in their orbit
 
 - **Catalyst Forge LLC** — publisher. Site: [catalystforge.com](https://www.catalystforge.com).
-- **FilePress (`getfilepress`)** — engine that renders the explainer.
+- **[FilePress](https://getfilepress.com/)** (`getfilepress`) — engine that renders the explainer.
 - **npm** — registry for `get-ember-dossier@0.1.1`.
 - **GitHub (`Catalyst-Forge-LLC/ember-dossier`)** — public source.
 - **emberdossier.com** — public explainer and install path.
@@ -46,10 +46,10 @@ No individual is named.
 ## 7. Possible refinements of the subject
 
 - EmberDossier skill contract (`SKILL.md`)
-- emberdossier.com FilePress explainer
+- emberdossier.com [FilePress](https://getfilepress.com/) explainer
 - `get-ember-dossier` on npm
 - Catalyst Forge LLC
-- FilePress
+- [FilePress](https://getfilepress.com/)
 - Recency-first briefing pattern (the idea, apart from this package)
 
 **Source types:** the public site (emberdossier.com), the npm package page for `get-ember-dossier`, the GitHub repo README and `GENESIS.md`, and the package metadata published 19 August 2026.

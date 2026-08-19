@@ -26,7 +26,7 @@ Copy `node_modules/get-ember-dossier/skills/ember-dossier/` into the agent’s s
 
 ## Site
 
-FilePress explainer. Engine from npm (`getfilepress`).
+[FilePress](https://getfilepress.com/) explainer. Engine from npm (`getfilepress`).
 
 ```bash
 pnpm install

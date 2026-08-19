@@ -1,6 +1,6 @@
 # EmberDossier site
 
-FilePress explainer for [emberdossier.com](https://emberdossier.com). Engine from npm: `getfilepress`.
+[FilePress](https://getfilepress.com/) explainer for [emberdossier.com](https://emberdossier.com). Engine from npm: `getfilepress`.
 
 ```bash
 pnpm install
