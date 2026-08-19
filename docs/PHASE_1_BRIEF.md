@@ -145,6 +145,7 @@ Skip. Site and skill are hand-authored. Dossiers are produced by the *consumer* 
 | - | -------- | ------------------ |
 | 1 | Lock this brief and start Phase 2 docs (`CONTEXT_PROMPT`, `TODO`, `IDEAS`)? | owner |
 | 2 | DNS for emberdossier.com → Cloudflare Pages project `emberdossier` | owner |
+| 3 | Accept or edit `docs/SPEC_FORMAT_AMENDMENTS.md` (no heat inflation, recency priority, later update semantics)? | owner |
 
 ---
 
