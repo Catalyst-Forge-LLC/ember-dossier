@@ -14,7 +14,7 @@ pnpm add get-ember-dossier
 
 Copy `node_modules/get-ember-dossier/skills/ember-dossier/` into the agent’s skills directory. Cursor wants a named folder that contains `SKILL.md`.
 
-A filled sample lives at `skills/ember-dossier/examples/harborview-public-library.md` and on this site at [Sample](/sample).
+Two filled samples: invented [Harborview Public Library](/harborview), real [EmberDossier](/ember-dossier). In the package: `skills/ember-dossier/examples/`.
 
 ## From this repo
 

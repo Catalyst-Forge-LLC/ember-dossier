@@ -129,6 +129,8 @@ Skip. Site and skill are hand-authored. Dossiers are produced by the *consumer* 
 
 **D9.** Filled sample is Harborview Public Library: civic, invented, roles not names, operational disputes only.
 
+**D11.** Second filled sample is EmberDossier itself: real, quiet, named by the owner. Same seven sections. `/sample` is an index.
+
 ---
 
 ## 9. Open questions (before or during Phase 2)

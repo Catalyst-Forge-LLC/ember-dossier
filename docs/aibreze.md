@@ -15,6 +15,7 @@ Point at the `aibreze` package, then only this.
 - Recency, present tense, living dossier
 - FilePress, ForgeTrail, aiBreze (sibling products, named on purpose)
 - Northwind Analytics, Project Lantern, Harborview Public Library (generic sample subjects)
+- EmberDossier (real filled sample, when the owner named this product)
 
 ## Protected lines
 

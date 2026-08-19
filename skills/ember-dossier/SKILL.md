@@ -50,4 +50,4 @@ Structure the response with these sections (adapt as needed):
 - “Read the EmberDossier first, then answer the question.”
 - “I need a fresh EmberDossier on the current state of Project Lantern.”
 
-A filled, invented sample is in [examples/harborview-public-library.md](examples/harborview-public-library.md). Use it to see section order. Do not treat it as reporting.
+Filled samples: invented [examples/harborview-public-library.md](examples/harborview-public-library.md), real [examples/ember-dossier.md](examples/ember-dossier.md). Use them to see section order. Do not treat Harborview as reporting.

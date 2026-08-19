@@ -23,9 +23,9 @@ A shared name helps:
 4. **Refinement built in.** Every dossier ends with better next questions.
 5. **Agent-native.** The shape is stable enough to request, update, and hand off.
 
-## Examples stay generic
+## Examples
 
-Shipped docs use stand-ins. The filled sample is [Harborview Public Library](/sample): a fictional municipal branch, roles instead of names, operational disputes only. Northwind Analytics and Project Lantern stay as one-line asks. No real living people as sample subjects unless you named that subject.
+Shipped docs use stand-ins, plus one real subject when it is named. [Harborview Public Library](/harborview) is a fictional municipal branch: roles instead of names, operational disputes only. [EmberDossier](/ember-dossier) is this product. Northwind Analytics and Project Lantern stay as one-line asks. No real living people as sample subjects unless you named that subject.
 
 ## Small on purpose
 

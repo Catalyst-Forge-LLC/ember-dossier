@@ -14,7 +14,7 @@ Site: [emberdossier.com](https://emberdossier.com)
 - Give me an EmberDossier on Northwind Analytics.
 - Update the EmberDossier with anything from the last 30 days.
 
-Sample subjects are generic on purpose. A filled fixture: [Harborview Public Library](skills/ember-dossier/examples/harborview-public-library.md).
+Sample subjects are generic on purpose. Filled fixtures: invented [Harborview Public Library](skills/ember-dossier/examples/harborview-public-library.md), real [EmberDossier](skills/ember-dossier/examples/ember-dossier.md).
 
 ## Install
 

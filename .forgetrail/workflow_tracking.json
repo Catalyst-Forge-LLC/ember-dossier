@@ -226,6 +226,17 @@
         "ember-dossier",
         "get-ember-dossier"
       ]
+    },
+    {
+      "id": "D11",
+      "timestamp": "2026-08-19T14:15:00Z",
+      "phase": "1-architecture",
+      "decision": "Second filled sample is EmberDossier itself. Real, non-controversial, owner-named. /sample is an index of Harborview (invented) and EmberDossier (real).",
+      "rationale": "Owner asked for a more complex real example and pointed at emberdossier.com. A self-sample teaches multiple artifacts (format, npm package, site) without a news-cycle fight.",
+      "alternatives_considered": [
+        "Harborview only",
+        "A third-party civic or corporate subject"
+      ]
     }
   ],
   "gotchas": [
@@ -271,6 +282,11 @@
       "date": "2026-08-19",
       "phase": "1-architecture",
       "notes": "Logo/favicon (dossier + hot top line). pnpm ship → Pages project emberdossier. origin set to Catalyst-Forge-LLC/ember-dossier."
+    },
+    {
+      "date": "2026-08-19",
+      "phase": "1-architecture",
+      "notes": "Second filled sample: EmberDossier (real). /sample is an index. Harborview moved to /harborview."
     }
   ]
 }
