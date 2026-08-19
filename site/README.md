@@ -9,4 +9,4 @@ pnpm build    # → build/
 pnpm ship     # build + wrangler pages deploy (project: emberdossier)
 ```
 
-If LocalBerth is installed, claim `ember-dossier-site` on port **5189**.
+If [LocalBerth](https://www.npmjs.com/package/localberth) is installed, this site stays on **5196** as `ember-dossier-site`.

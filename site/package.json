@@ -4,7 +4,7 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
-		"dev": "filepress dev",
+		"dev": "node ../scripts/ensure-lease.mjs ember-dossier-site 5196 && filepress dev",
 		"build": "filepress build",
 		"preview": "filepress preview",
 		"check": "filepress check",
@@ -13,7 +13,7 @@
 	},
 	"devDependencies": {
 		"@types/node": "^22.20.1",
-		"getfilepress": "^0.1.5",
+		"getfilepress": "^0.1.6",
 		"wrangler": "^4.124.0"
 	},
 	"pnpm": {
