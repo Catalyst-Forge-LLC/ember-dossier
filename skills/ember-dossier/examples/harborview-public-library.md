@@ -36,7 +36,7 @@ Older friction (a 2019 filter-software debate) is closed and does not shape the 
 
 The library opened in 1924 in a donated house on Market Street. The current building, two blocks north, dates to 1978, with a 2003 entrance remodel. It is a city department, not an independent district. Funding is the general fund plus the Friends group and small state grants. It does not charge for cards. Harborview’s population is written here as 41,000 so the circulation numbers have a denominator.
 
-## 6. Key people & entities in their orbit
+## 6. Key people & entities in the orbit
 
 - **Library director** — started April 2026; public face of the revised schedule.
 - **Friends of the Harborview Public Library** — fundraising and Sunday-hours advocacy.

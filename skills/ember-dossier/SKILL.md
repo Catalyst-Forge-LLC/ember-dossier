@@ -28,7 +28,7 @@ Structure the response with these sections (adapt as needed):
 5. **Background**  
    Concise historical and biographical context. Expand only as needed.
 
-6. **Key people & entities in their orbit**  
+6. **Key people & entities in the orbit**  
    Current relationships, collaborators, opponents, and relevant organizations.
 
 7. **Possible refinements of the subject**  

@@ -32,7 +32,7 @@ Example subjects stay generic on purpose, unless a real one is named. [Harborvie
 3. Recent developments and current activity
 4. Controversies and criticisms
 5. Background
-6. Key people and entities in their orbit
+6. Key people and entities in the orbit
 7. Possible refinements of the subject
 
 Same shape every time. Humans read it. Agents update, compare, and hand it off.

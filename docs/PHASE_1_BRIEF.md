@@ -135,6 +135,8 @@ Skip. Site and skill are hand-authored. Dossiers are produced by the *consumer* 
 
 **D13.** Call filled briefings **examples** on the site and in the skill. Nav and index are `/examples`. “Example subjects” is the house phrase for demo subjects.
 
+**D14.** Section 6 is **Key people & entities in the orbit**. “Their” dropped; the orbit does not need a pronoun.
+
 ---
 
 ## 9. Open questions (before or during Phase 2)

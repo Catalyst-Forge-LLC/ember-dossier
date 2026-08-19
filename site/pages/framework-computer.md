@@ -36,7 +36,7 @@ Coverage of the mission is mostly positive. Friction is about price, execution, 
 
 Patel founded Framework in January 2020 after software work at Apple and a stretch as the original head of hardware at Oculus. The first product, Framework Laptop 13, shipped in 2021. Later generations added Laptop 16 with swappable graphics, a desktop, and the cheaper Laptop 12. Manufacturing is primarily in Taiwan. The company has raised venture funding, including rounds involving Spark Capital, and talks about staying relatively lean for a hardware startup.
 
-## 6. Key people & entities in their orbit
+## 6. Key people & entities in the orbit
 
 - **Nirav Patel** — founder and CEO.
 - **Compal** — primary manufacturing partner in Taiwan.
