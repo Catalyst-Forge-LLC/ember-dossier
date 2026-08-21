@@ -1,28 +1,44 @@
 ---
 title: Skill
-description: Install EmberDossier from npm, then copy one folder that contains SKILL.md.
+description: Get the folder from a ZIP, a git clone, or npm.
 order: 1
 ---
 
-EmberDossier is Markdown you point an agent at. Install **`get-ember-dossier`** from npm, then copy the skill folder.
+The skill is a folder: `SKILL.md` plus the filled examples it points at. Get that folder one of these ways, then put it in a skills directory.
 
-## From npm
+## Download the ZIP
 
-```bash
-pnpm add get-ember-dossier
-```
+[Download ember-dossier.zip](/skills/ember-dossier.zip)
 
-Copy `node_modules/get-ember-dossier/skills/ember-dossier/` into the agent’s skills directory. Agents load a named folder that contains `SKILL.md`.
+Unpack it. Move the `ember-dossier` folder (the one that contains `SKILL.md`) into a skills directory.
 
-Filled examples: invented [Harborview Public Library](/harborview), real [EmberDossier](/ember-dossier) and [Framework Computer](/framework-computer). In the package: `skills/ember-dossier/examples/`.
+On claude.ai, skip unpacking. Upload the ZIP under Settings, Customize, Skills.
 
-## From this repo
+## Clone the repo
 
 ```bash
 git clone https://github.com/Catalyst-Forge-LLC/ember-dossier.git
 ```
 
-Same folder, at `skills/ember-dossier/`.
+Copy `skills/ember-dossier/` from the clone into a skills directory.
+
+## Install from npm
+
+```bash
+pnpm add get-ember-dossier
+```
+
+Copy `node_modules/get-ember-dossier/skills/ember-dossier/` into a skills directory.
+
+## Skills directories
+
+- Claude Code, every project: `~/.claude/skills/ember-dossier/`
+- Claude Code, one repo: `.claude/skills/ember-dossier/`
+- Cursor: `.cursor/skills/ember-dossier/` or `~/.cursor/skills/ember-dossier/`
+
+The folder you drop in must be named `ember-dossier` and must contain `SKILL.md`.
+
+Filled examples live in that folder: invented [Harborview Public Library](/harborview), real [EmberDossier](/ember-dossier) and [Framework Computer](/framework-computer).
 
 ## What you say
 

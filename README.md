@@ -18,11 +18,13 @@ Example subjects are generic on purpose unless a real one is named. Filled examp
 
 ## Install
 
+Get the `ember-dossier` folder from a [ZIP](https://emberdossier.com/skills/ember-dossier.zip), a clone, or npm, then put it in a skills directory. Full dest dirs: [emberdossier.com/skill](https://emberdossier.com/skill).
+
 ```bash
 pnpm add get-ember-dossier
 ```
 
-Copy `node_modules/get-ember-dossier/skills/ember-dossier/` into the agent’s skills directory. Agents load a named folder that contains `SKILL.md`.
+Copy `node_modules/get-ember-dossier/skills/ember-dossier/` into the agent’s skills directory.
 
 ## Site
 
