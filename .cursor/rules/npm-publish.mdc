@@ -11,4 +11,4 @@ always allow npm publish, **do it**.
 - If the working tree is dirty, **commit first** so `pnpm publish`
   git-checks pass. Do not reach for `--no-git-checks` unless they ask.
 - Use `pnpm publish --access public` (or the OTP form if 2FA requires it).
-- Do not apply aibreze’s “agents must not publish” rule here.
+- Do not apply smellcheck’s “agents must not publish” rule here.

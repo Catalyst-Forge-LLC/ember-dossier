@@ -1,15 +1,15 @@
 ---
-description: aiBreze. House voice and anti-performative prose for all drafting.
+description: Smell Check. House voice and anti-performative prose for all drafting.
 alwaysApply: true
 ---
 
-# aiBreze
+# Smell Check
 
-Full rules: the `aibreze` package
-([`node_modules/aibreze/rules/core.md`](../../node_modules/aibreze/rules/core.md);
-checkout `z:\workspace\aibreze\rules\core.md`). Overlay:
-[`docs/aibreze.md`](../../docs/aibreze.md). Smell audit:
-`aibreze` `rules/audit.md`. Claims: `aibreze` `rules/claims.md`.
+Full rules: the `smellcheck` package
+([`node_modules/smellcheck/rules/core.md`](../../node_modules/smellcheck/rules/core.md);
+checkout `z:\workspace\smellcheck\rules\core.md`). Overlay:
+[`docs/smellcheck.md`](../../docs/smellcheck.md). Smell audit:
+`smellcheck` `rules/audit.md`. Claims: `smellcheck` `rules/claims.md`.
 
 This file is a digest. If it conflicts with `core.md`, `core.md` wins.
 
@@ -47,7 +47,7 @@ corporate we. No builder I.
 
 ## Corpus-applicability
 
-If a term has real application here, leave it. See [`docs/aibreze.md`](../../docs/aibreze.md).
+If a term has real application here, leave it. See [`docs/smellcheck.md`](../../docs/smellcheck.md).
 
 ## Examples
 
@@ -57,8 +57,8 @@ that subject.
 
 ## When to open a genre file
 
-- Page / marketing site: `aibreze` `rules/landing.md`
-- Essay: `aibreze` `rules/essays.md`
-- Ship post: `aibreze` `rules/launch.md`
+- Page / marketing site: `smellcheck` `rules/landing.md`
+- Essay: `smellcheck` `rules/essays.md`
+- Ship post: `smellcheck` `rules/launch.md`
 
 Reference docs, the skill contract, UI chrome: core only.

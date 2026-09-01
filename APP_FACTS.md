@@ -12,8 +12,8 @@ stack:
   framework: getfilepress
   hosting: Cloudflare Pages
 key_dependencies:
-  - name: aibreze
-    purpose: AI development toolkit
+  - name: smellcheck
+    purpose: editorial rules for publishable prose
   - name: getfilepress
     purpose: static site generator
   - name: wrangler
@@ -49,7 +49,7 @@ Curated stack label for this repository — aimed at an under-a-minute skim.
 
 ### Key dependencies
 
-- `aibreze` — AI development toolkit
+- `smellcheck` — editorial rules for publishable prose
 - `getfilepress` — static site generator
 - `wrangler` — Cloudflare deployment tool
 
@@ -60,4 +60,4 @@ Curated stack label for this repository — aimed at an under-a-minute skim.
 ---
 *Generated with [AppFacts](https://appfacts.dev) · Scan `APP_FACTS.png` or open the [visual label][appfacts-label]*
 
-[appfacts-label]: https://appfacts.dev/v#af1.eNpdkUFrAjEQhf_K8s5R6TW3IhQsbSnorZQyuzvG1GwSJrPKVvzvJUoFext47_G-mTnhAPtgEGlgWDjWGQ8ty6xPpXgWGOiUqxR8KyQTDIqSjgUW1Kk_MAyC7ziW6npdba6Obg97QqDoRnJV2UyZ1534rKZ5pgP9zcv1GgYyRvUXhLfU8_y7wGArNPAxyf4KtvWBs3Cp0i4V9dHBYhnS2G8DCTfv5LjgbNBzLrAfJ8QK6Vvhn0qZYfG4ano-cEh54KiNphT2XnE2V_O_mpqo2_quKV65cRxZSJPcAkeh6MLlTvmepucc0nRrwfnToB196OtdMnV7cvw1UCTHAosc81DZhXMqXpNMsNip5mIXC-d1N7bzLg2LJSmFqejsKYnj2cvLcnH_sPMvR1Wfxw
+[appfacts-label]: https://appfacts.dev/v#af1.eNpdkkGLGzEMhf_K8M7Ohl59DRRatqWQvZVSNB7FceOxjaTJMoT578VJW7p7M35P8tMn33CF_-BQaGZ4RLYdzyPLbqqqiQUOtrYu5TQKyQoHNbJF4UHB0pXhkFPgot315dPLwxEu8DdkKnGh2JWXtfExSGrmhs90pb_nw_EIB1mKpXuEr3Xip18Kh5PQzK9VLo9gp5S5CWuXzlUtlQiPQ67LdMokPHyjyIrNYeKm8N9vKPDQmXMOZw4XODR48JSsSqI8yJJZh1OVoS1jTnqmMfPQpCpjc4_ydw_3Bn3-FAZNxkPkwkJW5V_Bq1CJ-U6uvc03cct1nbnYYLVmbD8cxiXlqZNqFC4U-edMhSILPFppc8fPavBYypQ05Ko8wSGkd1dbZzJze7A-mzX1-_19lX82-RRqbyfcqnYA63--mOy8jN2xP5BRXtV2H6tE3j0_H_ZvP8T2GyvnwgI

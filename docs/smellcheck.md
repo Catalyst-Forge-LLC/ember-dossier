@@ -1,6 +1,6 @@
-# aiBreze overlay — EmberDossier
+# Smell Check overlay — EmberDossier
 
-Point at the `aibreze` package, then only this.
+Point at the `smellcheck` package, then only this.
 
 ## Pronouns
 
@@ -13,7 +13,7 @@ Point at the `aibreze` package, then only this.
 
 - EmberDossier, dossier, snapshot, orbit, refinement
 - Recency, present tense, living dossier
-- FilePress, ForgeTrail, aiBreze (sibling products, named on purpose)
+- FilePress, ForgeTrail, Smell Check (sibling products, named on purpose)
 - Northwind Analytics, Project Lantern, Harborview Public Library (generic example subjects)
 - EmberDossier (real filled example, when the owner named this product)
 - Framework Computer (real filled example, owner-named; independent, no affiliation)

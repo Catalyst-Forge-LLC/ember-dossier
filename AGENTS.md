@@ -11,7 +11,7 @@ This repo uses **ForgeTrail** lifecycle tracking. Source of truth: `.forgetrail/
 
 - EmberDossier is a format, not a research agent.
 - Example subjects in shipped docs are gender-neutral or obviously generic.
-- Publishable prose follows aiBreze. Overlay: `docs/aibreze.md`.
+- Publishable prose follows Smell Check. Overlay: `docs/smellcheck.md`.
 
 ## Git commits
 

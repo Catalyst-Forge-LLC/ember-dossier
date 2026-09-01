@@ -42,7 +42,7 @@
 		"ship": "pnpm --dir site run ship"
 	},
 	"devDependencies": {
-		"aibreze": "link:../aibreze"
+		"smellcheck": "link:../smellcheck"
 	},
 	"engines": {
 		"node": ">=20"

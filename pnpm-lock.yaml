@@ -8,6 +8,6 @@ importers:
 
   .:
     devDependencies:
-      aibreze:
-        specifier: link:../aibreze
-        version: link:../aibreze
+      smellcheck:
+        specifier: link:../smellcheck
+        version: link:../smellcheck
