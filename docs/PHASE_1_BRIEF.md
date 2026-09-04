@@ -61,7 +61,7 @@ User says “Give me an EmberDossier on Northwind Analytics” → agent loads t
 | Site engine | FilePress (`getfilepress` from npm, ^0.1.5) | confirmed | Owner: use the published package |
 | Public URL | https://emberdossier.com | confirmed | Owner |
 | npm package | `get-ember-dossier` | confirmed | `ember-dossier` taken; `emberdossier` blocked by npm similar-name check |
-| Voice | Smell Check + overlay | proposed | Owner ask |
+| Voice | Smell Check (`smellcheck` from npm, ^0.3.4) + overlay | confirmed | Owner: published package, not a sibling link |
 | DB / backend | none | proposed | Static site; skill is Markdown |
 | Auth / storage | none | proposed | No state that outlives the browser |
 | State persistence | n/a (not a web app with user state) | proposed | LocalBerth lease only for `site:dev` |
@@ -138,6 +138,8 @@ Skip. Site and skill are hand-authored. Dossiers are produced by the *consumer* 
 **D14.** Section 6 is **Key people & entities in the orbit**. “Their” dropped; the orbit does not need a pronoun.
 
 **D15.** Every dossier opens with YAML: `subject`, `as_of`, optional `updated_from`. No hosted store. Update *procedure* still later.
+
+**D16.** Smell Check via published **`smellcheck`** from npm (`^0.3.4`), not a sibling `link:`.
 
 ---
 

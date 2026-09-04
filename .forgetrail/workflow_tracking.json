@@ -258,6 +258,16 @@
         "Sample everywhere",
         "Keep the split"
       ]
+    },
+    {
+      "id": "D16",
+      "timestamp": "2026-09-04T21:52:00Z",
+      "phase": "1-architecture",
+      "decision": "Smell Check via published smellcheck from npm (^0.3.4), not a sibling link.",
+      "rationale": "Owner: replace the link. Same pattern as getfilepress from npm so clones do not need the smellcheck repo.",
+      "alternatives_considered": [
+        "link:../smellcheck"
+      ]
     }
   ],
   "gotchas": [
@@ -318,6 +328,11 @@
       "date": "2026-08-19",
       "phase": "1-architecture",
       "notes": "Rename: site Sample → Examples (/examples). House phrase is example subjects."
+    },
+    {
+      "date": "2026-09-04",
+      "phase": "1-architecture",
+      "notes": "smellcheck from npm (^0.3.4), not link:../smellcheck."
     }
   ]
 }

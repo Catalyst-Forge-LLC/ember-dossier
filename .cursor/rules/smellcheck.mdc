@@ -6,8 +6,7 @@ alwaysApply: true
 # Smell Check
 
 Full rules: the `smellcheck` package
-([`node_modules/smellcheck/rules/core.md`](../../node_modules/smellcheck/rules/core.md);
-checkout `z:\workspace\smellcheck\rules\core.md`). Overlay:
+([`node_modules/smellcheck/rules/core.md`](../../node_modules/smellcheck/rules/core.md)). Overlay:
 [`docs/smellcheck.md`](../../docs/smellcheck.md). Smell audit:
 `smellcheck` `rules/audit.md`. Claims: `smellcheck` `rules/claims.md`.
 

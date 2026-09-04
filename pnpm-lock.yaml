@@ -9,5 +9,15 @@ importers:
   .:
     devDependencies:
       smellcheck:
-        specifier: link:../smellcheck
-        version: link:../smellcheck
+        specifier: ^0.3.4
+        version: 0.3.4
+
+packages:
+
+  smellcheck@0.3.4:
+    resolution: {integrity: sha512-7QhEwrmUpdKi0rg8WlT0m10HsIl5w2gq5MbBijJ9FKrJFBNKsOSkJnNq5HfkLGPd3qs+NBJmVNfKR2svISx5LA==}
+    engines: {node: '>=20'}
+
+snapshots:
+
+  smellcheck@0.3.4: {}
