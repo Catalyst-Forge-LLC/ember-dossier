@@ -7,6 +7,8 @@ as_of: 2026-08-19
 
 This is an example. **Harborview** is invented. Dates and figures are fixtures so the seven sections have something to hold. Do not treat this as news. No individual is named.
 
+`as_of: 2026-08-19` is the compilation date. Event dates in the list are when the events occurred. Source types at the end are invented notices from those months. Current means current to that compile. An update does not silently revalidate every older sentence. Section 7 is follow-up questions, not sourced fact.
+
 ## 1. Snapshot
 
 Harborview Public Library is a single-branch municipal library in the fictional city of Harborview. As of August 2026 it is open, with reduced hours, while the west wing stays closed for a renovation that has slipped twice. The current public date for a full reopening is 12 March 2027. Circulation is running at about 80% of the 2024 peak. The library remains the city’s busiest indoor public building on weekday afternoons.

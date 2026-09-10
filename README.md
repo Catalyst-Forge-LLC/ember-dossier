@@ -10,11 +10,11 @@ Site: [emberdossier.com](https://emberdossier.com)
 
 ## Ask
 
-- Give me an EmberDossier on Harborview Public Library.
+- I have a meeting about Harborview Public Library on Thursday. Give me an EmberDossier.
+- Refresh the EmberDossier for a project handoff. Anything since the last `as_of`.
 - Give me an EmberDossier on Northwind Analytics.
-- Update the EmberDossier with anything from the last 30 days.
 
-Example subjects are generic on purpose unless a real one is named. Filled examples: invented [Harborview Public Library](skills/ember-dossier/examples/harborview-public-library.md), real [EmberDossier](skills/ember-dossier/examples/ember-dossier.md) and [Framework Computer](skills/ember-dossier/examples/framework-computer.md).
+Example subjects are generic on purpose unless a real one is named. Filled examples: invented [Harborview Public Library](skills/ember-dossier/examples/harborview-public-library.md) (labeled fixtures, compile date `as_of: 2026-08-19`), real [EmberDossier](skills/ember-dossier/examples/ember-dossier.md) and [Framework Computer](skills/ember-dossier/examples/framework-computer.md). Current means current to that `as_of`, not continuously maintained.
 
 ## Install
 

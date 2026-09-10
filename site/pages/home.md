@@ -1,29 +1,49 @@
 ---
 title: Present tense first.
-description: A living dossier that prioritizes what’s still hot.
+description: Prepare a briefing that starts with what is true now and what changed recently, then supplies the background.
 order: 0
 ---
 
-Most profiles read like obituaries. They start in the past, linger on origin stories, and arrive at the present last.
+Prepare a briefing for a meeting or a project handoff. EmberDossier gives your research agent a consistent format: what is true now, what changed recently, then the background.
 
-In research, journalism, diligence, and agent handoffs, that order is backwards. What matters is what is true now, what changed recently, who is in the orbit, and which disputes are still live.
-
-**EmberDossier** inverts the default. Present tense first. Background second.
+It is a format, not a research service. The agent you already use does the looking. Current means current to the compile date on the dossier, not continuously maintained.
 
 <div class="cta-row">
   <a class="cta cta-primary" href="/skill">Get the skill</a>
-  <a class="cta cta-secondary" href="/examples">Read the examples</a>
+  <a class="cta cta-secondary" href="/harborview">Read a labeled example</a>
 </div>
+
+## Labeled example
+
+**Harborview Public Library** is invented. Fixtures, not reporting. Compiled **19 August 2026** (`as_of`). Event dates below are when the events occurred. Source types are invented notices from those months. No real person or client is named.
+
+**Snapshot.** Harborview Public Library is a single-branch municipal library in the fictional city of Harborview. As of August 2026 it is open, with reduced hours, while the west wing stays closed for a renovation that has slipped twice. The current public date for a full reopening is 12 March 2027.
+
+**One dated development.** July 2026: the city posted a revised schedule, west wing still closed, full reopening 12 March 2027, weather and inspections allowing.
+
+**A dispute that stays open.** Sunday hours. Families and the Friends board want Sundays restored now. Staff and the city manager’s office say two extra shifts during a construction year pull people off weekday work. Both sides agree Sundays return after the west wing opens. They disagree on whether that is soon enough.
+
+Full seven sections: [Harborview](/harborview). Other filled examples: this product, and Framework Computer, on [Examples](/examples).
+
+## After a later compile
+
+Illustrative update of the same invented subject. `updated_from: 2026-08-19`. `as_of: 2026-09-09`. The 8 September facilities vote was heard. Public minutes have not been posted. The snapshot changes. Sunday hours remain unresolved. Older background was not rechecked just because the dossier was updated.
+
+| Kind of date | In this example |
+| --- | --- |
+| Compilation date | `as_of` on the dossier |
+| Event date | July 2026 revised schedule, 8 September vote |
+| Source publication date | Named in a real dossier next to the claim. Invented here as city notices from those months. |
+
+Section 7, possible refinements, is a list of follow-up questions. It is not sourced fact.
 
 ## Ask it like this
 
-- Give me an EmberDossier on Northwind Analytics.
-- Update the EmberDossier with anything from the last 30 days.
+- I have a meeting about Harborview Public Library on Thursday. Give me an EmberDossier.
+- Refresh the EmberDossier for a project handoff. Anything since the last `as_of`.
 - Read the EmberDossier first, then answer the question.
-- I need a fresh EmberDossier on the current state of Project Lantern.
-- Give me an EmberDossier on the Harborview transit expansion.
 
-Example subjects stay generic on purpose, unless a real one is named. [Harborview Public Library](/harborview) is invented. [EmberDossier](/ember-dossier) is this product. [Framework Computer](/framework-computer) is a real company, no affiliation.
+Wider subjects (a person, a company, a place, a topic, an event) use the same seven sections. Start with the meeting or the handoff.
 
 ## The seven sections
 
@@ -36,8 +56,6 @@ Example subjects stay generic on purpose, unless a real one is named. [Harborvie
 7. Possible refinements of the subject
 
 Same shape every time. Humans read it. Agents update, compare, and hand it off.
-
-EmberDossier is a format. It is not a research service. The agent you already use does the looking.
 
 [Get the skill](/skill) · [Examples](/examples) · [About](/about) · [GitHub](https://github.com/Catalyst-Forge-LLC/ember-dossier)
 

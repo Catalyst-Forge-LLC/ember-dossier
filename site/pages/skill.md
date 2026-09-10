@@ -50,6 +50,8 @@ Filled examples live in that folder: invented [Harborview Public Library](/harbo
 
 The agent should open with YAML (`subject`, `as_of`, optional `updated_from`), lead with current status, keep background short, flag contested claims, and end with refinements plus source types.
 
+`as_of` is the compilation date. Event dates and source publication dates stay in the body. An update sets `updated_from` to the previous `as_of`. It does not mean every older sentence was rechecked. Section 7 is possible follow-ups, not sourced fact.
+
 ## What it is not
 
 It does not crawl the web for you. It does not store dossiers. It tells the agent how to write the briefing.

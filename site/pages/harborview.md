@@ -4,7 +4,9 @@ description: A filled EmberDossier on an invented civic fixture. Fixtures, not r
 order: 4
 ---
 
-This is an example. **Harborview** is invented. Dates and figures are fixtures so the seven sections have something to hold. Do not treat this as news.
+This is an example. **Harborview** is invented. Dates and figures are fixtures so the seven sections have something to hold. Do not treat this as news. No real person or client is named.
+
+**Freshness.** `as_of: 2026-08-19` is the compilation date. Event dates in the list are when the events occurred. Source types at the end are invented notices from those months. Current means current to that compile, not continuously maintained. Updating the dossier does not silently revalidate every older sentence.
 
 # EmberDossier: Harborview Public Library
 
@@ -70,5 +72,19 @@ No individual is named. This example uses roles on purpose.
 **Source types:** invented city notices, a fictional Friends newsletter, and a fake public-comment summary. In a real EmberDossier, name the actual source classes: city agendas, library news pages, local reporting, and meeting video.
 
 ---
+
+## After a later compile (illustrative)
+
+```yaml
+subject: Harborview Public Library
+as_of: 2026-09-09
+updated_from: 2026-08-19
+```
+
+**Changed.** The city council heard the 8 September 2026 facilities packet. As of 9 September, public minutes have not been posted. The snapshot now leads with that hearing, not only the upcoming vote.
+
+**Unchanged, still unresolved.** Sunday hours. Families and staff still disagree on whether Sundays return before the west wing opens. The rear-lot garden vs parking sketch is still not a decision. Those disputes are not settled facts.
+
+**Not rechecked.** 1924 founding, 1978 building, and the closed 2019 filter-software debate were not revalidated in this update. They remain background from the 19 August compile.
 
 [Other example](/ember-dossier) · [Examples](/examples) · [Get the skill](/skill)

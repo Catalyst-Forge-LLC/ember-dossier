@@ -20,10 +20,10 @@ updated_from: 2026-07-20
 ```
 
 - `subject` — required. The named subject.
-- `as_of` — required. ISO date (`YYYY-MM-DD`) of this briefing.
-- `updated_from` — optional. ISO date of the dossier this update started from. Omit on a first write. On an update, set it to the previous `as_of` and set `as_of` to today.
+- `as_of` — required. ISO date (`YYYY-MM-DD`) of this briefing. Compilation date, not an event date.
+- `updated_from` — optional. ISO date of the dossier this update started from. Omit on a first write. On an update, set it to the previous `as_of` and set `as_of` to today. An update does not mean every older sentence was rechecked.
 
-An agent can tell how stale a dossier is from `as_of`. Do not invent dates.
+An agent can tell how stale a dossier is from `as_of`. Current means current to that compile, not continuously maintained. Do not invent dates. Put event dates and source publication dates in the body when they differ.
 
 Structure the response with these sections (adapt as needed):
 
