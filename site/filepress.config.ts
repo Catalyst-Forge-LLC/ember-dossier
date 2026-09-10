@@ -10,8 +10,8 @@ export default defineFilepressConfig({
 	lede: 'A living dossier that prioritizes what’s still hot.',
 	url: 'https://emberdossier.com',
 	author: 'Catalyst Forge LLC',
-	logo: '/logo.svg',
-	ogImage: '/logo.svg',
+	logo: '/logo.png',
+	ogImage: '/logo.png',
 	homePage: 'home',
 	nav: [
 		{ label: 'Home', href: '/' },
