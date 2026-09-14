@@ -57,6 +57,6 @@ Section 7, possible refinements, is a list of follow-up questions. It is not sou
 
 Same shape every time. Humans read it. Agents update, compare, and hand it off.
 
-[Install in your agent](/skill) · [Examples](/examples) · [About](/about) · [GitHub](https://github.com/Catalyst-Forge-LLC/ember-dossier)
+[Install in your agent](/skill) · [Examples](/examples) · [Writing](/writing) · [About](/about) · [GitHub](https://github.com/Catalyst-Forge-LLC/ember-dossier)
 
 Built by [Catalyst Forge LLC](https://www.catalystforge.com). MIT.
