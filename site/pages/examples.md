@@ -10,4 +10,4 @@ Three filled briefings. Same seven sections. Each names its subject, compile dat
 - **[EmberDossier](/ember-dossier)**: this product. Researched briefing. Compiled 19 August 2026.
 - **[Framework Computer](/framework-computer)**: real hardware company. Researched briefing. Independent. No affiliation.
 
-[Get the skill](/skill) · [About](/about)
+[Install in your agent](/skill) · [About](/about)

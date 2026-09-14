@@ -16,15 +16,33 @@ Site: [emberdossier.com](https://emberdossier.com)
 
 Example subjects are generic on purpose unless a real one is named. Filled examples: invented [Harborview Public Library](skills/ember-dossier/examples/harborview-public-library.md) (labeled fixtures, compile date `as_of: 2026-08-19`), real [EmberDossier](skills/ember-dossier/examples/ember-dossier.md) and [Framework Computer](skills/ember-dossier/examples/framework-computer.md). Current means current to that `as_of`, not continuously maintained.
 
-## Install
+## Get started
 
-Get the `ember-dossier` folder from a [ZIP](https://emberdossier.com/skills/ember-dossier.zip), a clone, or npm, then put it in a skills directory. Full dest dirs: [emberdossier.com/skill](https://emberdossier.com/skill).
+Pick the agent, install the skill, then ask for a named briefing —
+[emberdossier.com/skill](https://emberdossier.com/skill).
+
+- [Cursor](https://emberdossier.com/skill#cursor)
+- [Claude Code](https://emberdossier.com/skill#claude-code)
+- [Claude.ai](https://emberdossier.com/skill#claudeai)
+
+> Use EmberDossier. Follow the installed EmberDossier skill. Give me
+> an EmberDossier on Harborview Public Library.
+
+## Other installation methods
+
+npm supplies the skill files. It does not register the skill with the
+agent.
 
 ```bash
 pnpm add get-ember-dossier
 ```
 
-Copy `node_modules/get-ember-dossier/skills/ember-dossier/` into the agent’s skills directory.
+Copy `node_modules/get-ember-dossier/skills/ember-dossier/` into the
+same destination the [Get started](https://emberdossier.com/skill)
+page names for your agent.
+
+Updating the npm dependency does not refresh a folder you already
+copied. Copy again after you bump the package.
 
 ## Site
 

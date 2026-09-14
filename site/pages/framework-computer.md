@@ -64,4 +64,4 @@ Patel founded Framework in January 2020 after software work at Apple and a stret
 
 ---
 
-[Other examples](/examples) · [Get the skill](/skill)
+[Other examples](/examples) · [Install in your agent](/skill)

@@ -87,4 +87,4 @@ updated_from: 2026-08-19
 
 **Not rechecked.** 1924 founding, 1978 building, and the closed 2019 filter-software debate were not revalidated in this update. They remain background from the 19 August compile.
 
-[Other example](/ember-dossier) · [Examples](/examples) · [Get the skill](/skill)
+[Other example](/ember-dossier) · [Examples](/examples) · [Install in your agent](/skill)

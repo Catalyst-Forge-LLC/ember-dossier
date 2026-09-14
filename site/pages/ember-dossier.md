@@ -67,4 +67,4 @@ No individual is named.
 
 ---
 
-[Other example](/harborview) · [Examples](/examples) · [Get the skill](/skill)
+[Other example](/harborview) · [Examples](/examples) · [Install in your agent](/skill)

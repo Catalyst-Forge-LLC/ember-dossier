@@ -1,16 +1,16 @@
 ---
 title: Present tense first.
-description: Prepare a briefing that starts with what is true now and what changed recently, then supplies the background.
+description: An installable briefing skill for AI agents. Prepare a briefing that starts with what is true now and what changed recently, then supplies the background.
 order: 0
 ---
 
-Prepare a briefing for a meeting or a project handoff. EmberDossier gives your research agent a consistent format: what is true now, what changed recently, then the background.
+An installable briefing skill for AI agents. Prepare a briefing for a meeting or a project handoff. EmberDossier gives your research agent a consistent format: what is true now, what changed recently, then the background.
 
 It is a format, not a research service. The agent you already use does the looking. Current means current to the compile date on the dossier, not continuously maintained.
 
 <div class="cta-row">
-  <a class="cta cta-primary" href="/skill">Get the skill</a>
-  <a class="cta cta-secondary" href="/harborview">Read a labeled example</a>
+  <a class="cta cta-primary" href="/skill">Install in your agent</a>
+  <a class="cta cta-secondary" href="/harborview">See an example dossier</a>
 </div>
 
 ## Labeled example
@@ -25,6 +25,14 @@ It is a format, not a research service. The agent you already use does the looki
 
 Full seven sections: [Harborview](/harborview). Other filled examples: this product, and Framework Computer, on [Examples](/examples).
 
+## What it reads, writes, and changes
+
+| | |
+| --- | --- |
+| Reads | A subject you name: a person, organization, place, topic, or event |
+| Writes | A briefing in seven sections, with YAML (`subject`, `as_of`) |
+| Changes | Nothing in your files. It is a format for the write-up |
+
 ## After a later compile
 
 Illustrative update of the same invented subject. `updated_from: 2026-08-19`. `as_of: 2026-09-09`. The 8 September facilities vote was heard. Public minutes have not been posted. The snapshot changes. Sunday hours remain unresolved. Older background was not rechecked just because the dossier was updated.
@@ -36,14 +44,6 @@ Illustrative update of the same invented subject. `updated_from: 2026-08-19`. `a
 | Source publication date | Named in a real dossier next to the claim. Invented here as city notices from those months. |
 
 Section 7, possible refinements, is a list of follow-up questions. It is not sourced fact.
-
-## Ask it like this
-
-- I have a meeting about Harborview Public Library on Thursday. Give me an EmberDossier.
-- Refresh the EmberDossier for a project handoff. Anything since the last `as_of`.
-- Read the EmberDossier first, then answer the question.
-
-Wider subjects (a person, a company, a place, a topic, an event) use the same seven sections. Start with the meeting or the handoff.
 
 ## The seven sections
 
@@ -57,6 +57,6 @@ Wider subjects (a person, a company, a place, a topic, an event) use the same se
 
 Same shape every time. Humans read it. Agents update, compare, and hand it off.
 
-[Get the skill](/skill) · [Examples](/examples) · [About](/about) · [GitHub](https://github.com/Catalyst-Forge-LLC/ember-dossier)
+[Install in your agent](/skill) · [Examples](/examples) · [About](/about) · [GitHub](https://github.com/Catalyst-Forge-LLC/ember-dossier)
 
 Built by [Catalyst Forge LLC](https://www.catalystforge.com). MIT.
