@@ -65,7 +65,7 @@ pnpm site:dev
 pnpm ship          # FilePress build + Wrangler Pages (project: emberdossier)
 ```
 
-If LocalBerth is installed, this site stays on **5189** as `ember-dossier-site`.
+If LocalSlip is installed, this site stays on **5196** as `ember-dossier-site`.
 
 Built by [Catalyst Forge LLC](https://www.catalystforge.com). MIT.
 

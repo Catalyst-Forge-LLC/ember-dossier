@@ -64,9 +64,9 @@ User says “Give me an EmberDossier on Northwind Analytics” → agent loads t
 | Voice | Smell Check (`smellcheck` from npm, ^0.3.4) + overlay | confirmed | Owner: published package, not a sibling link |
 | DB / backend | none | proposed | Static site; skill is Markdown |
 | Auth / storage | none | proposed | No state that outlives the browser |
-| State persistence | n/a (not a web app with user state) | proposed | LocalBerth lease only for `site:dev` |
+| State persistence | n/a (not a web app with user state) | proposed | LocalSlip lease only for `site:dev` |
 | Deploy | Cloudflare Pages project `emberdossier` via `pnpm ship` | confirmed | Matches house FilePress ship script |
-| Local preview | LocalBerth `ember-dossier-site` on **5189** | proposed | Avoid the shared 5173 pool |
+| Local preview | LocalSlip `ember-dossier-site` on **5189** | proposed | Avoid the shared 5173 pool |
 | Lifecycle | ForgeTrail MCP, `.forgetrail/` | proposed | Owner ask |
 
 ---
@@ -93,7 +93,7 @@ One subject → one current dossier. Updates replace or annotate recent-developm
 | --- | --- | --- | --- |
 | Consumer-agent search | Fresh facts when the *user’s* agent has search | Lives in the host agent | EmberDossier is not a research service |
 | FilePress / Cloudflare Pages | Public explainer | Wrangler / Pages project | Origin: emberdossier.com |
-| LocalBerth | Stable local port | none | Fallback 5189 if CLI missing |
+| LocalSlip | Stable local port | none | Fallback 5189 if CLI missing |
 
 ## 6a. Content-generation pattern
 
@@ -168,7 +168,7 @@ Skip. Site and skill are hand-authored. Dossiers are produced by the *consumer* 
 2. Finish site pages (home, skill, about) and drop placeholder posts.
 3. Root README + `TODO.md` + `.forgetrail/IDEAS.md` (Phase 2 docs).
 4. `pnpm site:check` / `pnpm site:build`.
-5. Confirm LocalBerth lease and Pages project name.
+5. Confirm LocalSlip lease and Pages project name.
 
 ---
 

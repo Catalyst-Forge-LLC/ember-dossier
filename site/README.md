@@ -9,4 +9,4 @@ pnpm build    # → build/
 pnpm ship     # build + wrangler pages deploy (project: emberdossier)
 ```
 
-If [LocalBerth](https://www.npmjs.com/package/localberth) is installed, this site stays on **5196** as `ember-dossier-site`.
+If [LocalSlip](https://www.npmjs.com/package/localslip) is installed, this site stays on **5196** as `ember-dossier-site`.
