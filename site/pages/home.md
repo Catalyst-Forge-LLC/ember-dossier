@@ -31,7 +31,7 @@ Full seven sections: [Harborview](/harborview). Other filled examples: this prod
 | --- | --- |
 | Reads | A subject you name: a person, organization, place, topic, or event |
 | Writes | A briefing in seven sections, with YAML (`subject`, `as_of`) |
-| Changes | Nothing in your files. It is a format for the write-up |
+| Changes | By default, returns the briefing in chat. Saves a file when you explicitly request one and the host supports it |
 
 ## After a later compile
 

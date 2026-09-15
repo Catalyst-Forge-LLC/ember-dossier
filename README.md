@@ -25,8 +25,14 @@ Pick the agent, install the skill, then ask for a named briefing —
 - [Claude Code](https://emberdossier.com/skill#claude-code)
 - [Claude.ai](https://emberdossier.com/skill#claudeai)
 
-> Use EmberDossier. Follow the installed EmberDossier skill. Give me
-> an EmberDossier on Harborview Public Library.
+> Use the installed EmberDossier skill and its bundled fictional
+> Harborview Public Library example. This is a format demonstration,
+> not live research. Identify the fixture as fictional, preserve its
+> stated dates, and do not invent updates. Show the briefing in chat.
+
+Product **EmberDossier**, npm package **`get-ember-dossier`**, skill
+folder **`ember-dossier`**. Asking for an EmberDossier does not install
+or load the skill by itself.
 
 ## Other installation methods
 
@@ -44,7 +50,11 @@ page names for your agent.
 Updating the npm dependency does not refresh a folder you already
 copied. Copy again after you bump the package.
 
-## Site
+## Spec
+
+See [GENESIS.md](GENESIS.md). Planning brief: [docs/PHASE_1_BRIEF.md](docs/PHASE_1_BRIEF.md) (draft).
+
+## Site (maintainers)
 
 [FilePress](https://getfilepress.com/) explainer. Engine from npm (`getfilepress`).
 
@@ -56,10 +66,6 @@ pnpm ship          # FilePress build + Wrangler Pages (project: emberdossier)
 ```
 
 If LocalBerth is installed, this site stays on **5189** as `ember-dossier-site`.
-
-## Spec
-
-See [GENESIS.md](GENESIS.md). Planning brief: [docs/PHASE_1_BRIEF.md](docs/PHASE_1_BRIEF.md) (draft).
 
 Built by [Catalyst Forge LLC](https://www.catalystforge.com). MIT.
 
