@@ -37,13 +37,13 @@ Patel founded Framework in January 2020 after software work at Apple and a stret
 
 ## 6. Key people & entities in the orbit
 
-- **Nirav Patel** — founder and CEO.
-- **Compal** — primary manufacturing partner in Taiwan.
-- **Fedora Project** and **KDE e.V.** — named partners on the Laptop 12 Fedora 44 KDE preload.
-- **Ubuntu / Canonical** — Laptop 13 Pro is Ubuntu-certified and offered with Ubuntu pre-loaded.
+- **Nirav Patel**: founder and CEO.
+- **Compal**: primary manufacturing partner in Taiwan.
+- **Fedora Project** and **KDE e.V.**: named partners on the Laptop 12 Fedora 44 KDE preload.
+- **Ubuntu / Canonical**: Laptop 13 Pro is Ubuntu-certified and offered with Ubuntu pre-loaded.
 - **Spark Capital** and other investors.
-- **Linux and open-hardware communities** — customers, distro partners (including CachyOS and Bazzite on seeded Laptop 12 hardware), and forum regulars.
-- **Hyprland** and **Omarchy** — the October 2025 sponsorship fight.
+- **Linux and open-hardware communities**: customers, distro partners (including CachyOS and Bazzite on seeded Laptop 12 hardware), and forum regulars.
+- **Hyprland** and **Omarchy**: the October 2025 sponsorship fight.
 
 ## 7. Possible refinements of the subject
 

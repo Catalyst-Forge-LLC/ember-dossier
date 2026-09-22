@@ -4,7 +4,7 @@ description: A filled EmberDossier on an invented civic fixture. Fixtures, not r
 order: 4
 ---
 
-This is an example. **Harborview** is invented. Dates and figures are fixtures so the seven sections have something to hold. Do not treat this as news. No real person or client is named.
+This is an example. **Harborview** is invented. Dates and figures are fixtures so the seven sections have something to hold. Do not treat this as news. No real person or client is named. The [home page](/) shows this briefing used to prepare for a partner meeting.
 
 **Freshness.** `as_of: 2026-08-19` is the compilation date. Event dates in the list are when the events occurred. Source types at the end are invented notices from those months. Current means current to that compile, not continuously maintained. Updating the dossier does not silently revalidate every older sentence.
 
@@ -51,12 +51,12 @@ The library opened in 1924 in a donated house on Market Street. The current buil
 
 ## 6. Key people & entities in the orbit
 
-- **Library director** — started April 2026; public face of the revised schedule.
-- **Friends of the Harborview Public Library** — fundraising and Sunday-hours advocacy.
-- **City manager’s office** and **public works** — construction contract and the September budget line.
-- **City council facilities committee** — hears the 8 September packet.
-- **Downtown merchants’ association** — reading-garden proposal.
-- **West-wing contractor** — named in city filings; not restated here.
+- **Library director**: started April 2026; public face of the revised schedule.
+- **Friends of the Harborview Public Library**: fundraising and Sunday-hours advocacy.
+- **City manager’s office** and **public works**: construction contract and the September budget line.
+- **City council facilities committee**: hears the 8 September packet.
+- **Downtown merchants’ association**: reading-garden proposal.
+- **West-wing contractor**: named in city filings; not restated here.
 
 No individual is named. This example uses roles on purpose.
 

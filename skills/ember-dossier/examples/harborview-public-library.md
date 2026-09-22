@@ -45,12 +45,12 @@ The library opened in 1924 in a donated house on Market Street. The current buil
 
 ## 6. Key people & entities in the orbit
 
-- **Library director** — started April 2026; public face of the revised schedule.
-- **Friends of the Harborview Public Library** — fundraising and Sunday-hours advocacy.
-- **City manager’s office** and **public works** — construction contract and the September budget line.
-- **City council facilities committee** — hears the 8 September packet.
-- **Downtown merchants’ association** — reading-garden proposal.
-- **West-wing contractor** — named in city filings; not restated here.
+- **Library director**: started April 2026; public face of the revised schedule.
+- **Friends of the Harborview Public Library**: fundraising and Sunday-hours advocacy.
+- **City manager’s office** and **public works**: construction contract and the September budget line.
+- **City council facilities committee**: hears the 8 September packet.
+- **Downtown merchants’ association**: reading-garden proposal.
+- **West-wing contractor**: named in city filings; not restated here.
 
 ## 7. Possible refinements of the subject
 

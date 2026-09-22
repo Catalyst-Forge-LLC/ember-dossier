@@ -38,13 +38,13 @@ Catalyst Forge LLC publishes it. The explainer is a static [FilePress](https://g
 
 ## 6. Key people & entities in the orbit
 
-- **Catalyst Forge LLC** — publisher. Site: [catalystforge.com](https://www.catalystforge.com).
-- **[FilePress](https://getfilepress.com/)** (`getfilepress`) — engine that renders the explainer.
-- **npm** — registry for `get-ember-dossier@0.1.4`.
-- **GitHub (`Catalyst-Forge-LLC/ember-dossier`)** — public source.
-- **emberdossier.com** — public explainer and install path.
-- **Skill hosts** — any agent that loads a named folder containing `SKILL.md`.
-- **Harborview Public Library** — invented example subject, not a real institution.
+- **Catalyst Forge LLC**: publisher. Site: [catalystforge.com](https://www.catalystforge.com).
+- **[FilePress](https://getfilepress.com/)** (`getfilepress`): engine that renders the explainer.
+- **npm**: registry for `get-ember-dossier@0.1.4`.
+- **GitHub (`Catalyst-Forge-LLC/ember-dossier`)**: public source.
+- **emberdossier.com**: public explainer and install path.
+- **Skill hosts**: any agent that loads a named folder containing `SKILL.md`.
+- **Harborview Public Library**: invented example subject, not a real institution.
 
 No individual is named.
 

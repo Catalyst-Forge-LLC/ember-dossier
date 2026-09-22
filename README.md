@@ -4,21 +4,26 @@ A living dossier that prioritizes what’s still hot.
 
 Present tense first. Background second.
 
-EmberDossier is a structured prompting pattern and agent skill. It produces current, neutral briefings on a person, organization, place, topic, or event. It is a format, not a research service.
+EmberDossier is a structured prompting pattern and agent skill. It produces current, neutral briefings on a person, organization, place, topic, or event, for reading before a meeting, a decision, or a handoff. It is a format, not a research service.
 
 Site: [emberdossier.com](https://emberdossier.com)
 
 ## Ask
 
-- I have a meeting about Harborview Public Library on Thursday. Give me an EmberDossier.
+- I meet Harborview Public Library on Thursday to propose hosting our after-school tutoring there. Give me an EmberDossier.
 - Refresh the EmberDossier for a project handoff. Anything since the last `as_of`.
 - Give me an EmberDossier on Northwind Analytics.
 
-Example subjects are generic on purpose unless a real one is named. Filled examples: invented [Harborview Public Library](skills/ember-dossier/examples/harborview-public-library.md) (labeled fixtures, compile date `as_of: 2026-08-19`), real [EmberDossier](skills/ember-dossier/examples/ember-dossier.md) and [Framework Computer](skills/ember-dossier/examples/framework-computer.md). Current means current to that `as_of`, not continuously maintained.
+Harborview and Northwind Analytics are invented names. Filled examples:
+
+- [Harborview Public Library](skills/ember-dossier/examples/harborview-public-library.md): invented, with made-up dates compiled `as_of: 2026-08-19`. The [home page](https://emberdossier.com) shows it used to prepare for that partner meeting.
+- [EmberDossier](skills/ember-dossier/examples/ember-dossier.md) and [Framework Computer](skills/ember-dossier/examples/framework-computer.md): real, researched briefings.
+
+Each briefing is current to its `as_of` date. Nothing keeps it up to date after that.
 
 ## Get started
 
-Pick the agent, install the skill, then ask for a named briefing —
+Pick the agent, install the skill, then ask for a named briefing:
 [emberdossier.com/skill](https://emberdossier.com/skill).
 
 - [Cursor](https://emberdossier.com/skill#cursor)

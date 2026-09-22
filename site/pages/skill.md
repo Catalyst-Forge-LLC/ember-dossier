@@ -12,9 +12,9 @@ By default, the briefing returns in chat. It saves a file only when you explicit
 
 | Host | Scope | Required | Notes |
 | --- | --- | --- | --- |
-| Cursor | Project or user skills folder | Chat; optional file write | Host listing / discovery not independently verified in this docs pass |
-| Claude Code | Project or `~/.claude/skills/` | Chat; optional file write | Same |
-| Claude.ai | Uploaded skill zip | Chat; host search if available | Same |
+| Cursor | Project or user skills folder | Chat; optional file write | Skill discovery not independently verified |
+| Claude Code | Project or `~/.claude/skills/` | Chat; optional file write | Skill discovery not independently verified |
+| Claude.ai | Uploaded skill zip | Chat; host search if available | Skill discovery not independently verified |
 | Other agents that read `SKILL.md` | Manual copy | Chat | Unverified |
 
 A folder on disk is not proof the agent loaded the skill. Prefer the host’s skill list or a visible file-read of `SKILL.md`. A recognizable briefing alone does not prove loading.
