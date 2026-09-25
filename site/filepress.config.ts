@@ -7,7 +7,7 @@ export default defineFilepressConfig({
 	description:
 		'A living dossier that prioritizes what is still current. Present tense first.',
 	tagline: 'Present tense first.',
-	lede: 'A living dossier that prioritizes what’s still hot.',
+	lede: 'Briefing · present tense · sources',
 	url: 'https://emberdossier.com',
 	author: 'Catalyst Forge LLC',
 	logo: '/logo.png',
