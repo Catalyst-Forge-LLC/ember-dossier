@@ -1,5 +1,5 @@
 ---
-title: Present tense first.
+title: What is true now, then what changed.
 description: An installable briefing skill for AI agents. Prepare a briefing that starts with what is true now and what changed recently, then supplies the background.
 order: 0
 ---
