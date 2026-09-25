@@ -1,5 +1,5 @@
 ---
-title: What is true now, then what changed.
+title: A briefing that starts with what is true now.
 description: An installable briefing skill for AI agents. Prepare a briefing that starts with what is true now and what changed recently, then supplies the background.
 order: 0
 ---
