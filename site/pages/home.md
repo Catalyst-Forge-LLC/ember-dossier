@@ -6,7 +6,7 @@ order: 0
 
 An installable briefing skill for AI agents. Prepare a briefing for a meeting or a project handoff. EmberDossier gives your research agent a consistent format: what is true now, what changed recently, then the background.
 
-It is a format, not a research service. The agent you already use does the looking. Current means current to the compile date on the dossier, not continuously maintained.
+It is a format, not a research service. The agent you already use does the looking. The dossier is current to the sources checked for that run. Show its as-of date and mark sections that were not rechecked. It does not update itself.
 
 <div class="cta-row">
   <a class="cta cta-primary" href="/skill">Install in your agent</a>
