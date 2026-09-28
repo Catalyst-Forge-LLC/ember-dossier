@@ -21,7 +21,7 @@ Prefer a **multi-line** message.
 
 **Trivial commits** may use a subject-only message.
 
-**ForgeTrail policy:** Do not add attribution trailers the user did not ask for. Use plain `-m` or `git commit -F path/to/msg.txt`.
+**ForgeTrail policy:** Use plain `-m` or `git commit -F path/to/msg.txt`.
 
 ## Tone
 

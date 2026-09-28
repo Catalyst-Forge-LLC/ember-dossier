@@ -16,7 +16,6 @@ This repo uses **ForgeTrail** lifecycle tracking. Source of truth: `.forgetrail/
 ## Git commits
 
 - Plain `git commit -m "..."` or `git commit -F <file>`.
-- No unrequested attribution trailers.
 - Commit after substantive work. Do not push unless the user asks.
 
 ## Phase transitions
