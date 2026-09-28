@@ -1,0 +1,202 @@
+profile: forgetrail
+profile_version: 0.1.0
+archetype: product
+project_status: active
+current_phase_instance: phase-1bd49ed90130
+phase_instances:
+  - id: phase-1bd49ed90130
+    phase: plan
+    status: in_progress
+    started_at: 2026-08-19T00:00:00Z
+    criteria:
+      - id: crit-6a339d49c932
+        text: Tech choices confirmed
+        status: pending
+        evidence_refs: []
+      - id: crit-564fef0cd2ee
+        text: Folder structure confirmed
+        status: pending
+        evidence_refs: []
+      - id: crit-164c4012683b
+        text: Data model shape confirmed
+        status: pending
+        evidence_refs: []
+      - id: crit-dd1e4fd31151
+        text: First feature batch defined
+        status: pending
+        evidence_refs: []
+      - id: crit-ad4213acae4e
+        text: Claude's understanding verified by user
+        status: pending
+        evidence_refs: []
+      - id: crit-2c77337f4b1c
+        text: PHASE_1_BRIEF.md created, complete, and locked (docs/)
+        status: pending
+        evidence_refs: []
+      - id: crit-4bbf3ca6468c
+        text: Major decisions recorded in workflow_tracking.json decisions[]
+        status: pending
+        evidence_refs: []
+  - id: phase-65df5370e72e
+    phase: build
+    status: not_started
+    criteria:
+      - id: crit-e136a9a902d0
+        text: Site runs with pnpm site:dev
+        status: pending
+        evidence_refs: []
+      - id: crit-e003cb909d0d
+        text: Skill is complete and loadable from skills/ember-dossier/
+        status: pending
+        evidence_refs: []
+      - id: crit-f906524af240
+        text: Hero page states the recency-first pattern
+        status: pending
+        evidence_refs: []
+      - id: crit-974215309420
+        text: Install / skill page lets a reader point an agent at the skill
+        status: pending
+        evidence_refs: []
+      - id: crit-38aaab5a947d
+        text: CONTEXT_PROMPT.md created and populated by merging PHASE_1_BRIEF.md (then
+          template lessons as needed)
+        status: pending
+        evidence_refs: []
+      - id: crit-0e5468a17382
+        text: README.md created (via ForgeTrail MCP getTemplate — use the template name
+          matching the doc, e.g. CONTEXT_PROMPT)
+        status: pending
+        evidence_refs: []
+      - id: crit-db997c0b003d
+        text: TODO.md created (via ForgeTrail MCP getTemplate — use the template name
+          matching the doc, e.g. CONTEXT_PROMPT)
+        status: pending
+        evidence_refs: []
+      - id: crit-a9cea9eeb5a4
+        text: IDEAS.md created (via ForgeTrail MCP getTemplate — use the template name
+          matching the doc, e.g. CONTEXT_PROMPT)
+        status: pending
+        evidence_refs: []
+      - id: crit-109a9e371ba3
+        text: Phase 2 doc scope only per WORKFLOW §1a (no premature extra templates)
+        status: pending
+        evidence_refs: []
+  - id: phase-67c064f28401
+    phase: stabilize
+    status: not_started
+    criteria:
+      - id: crit-2bfa4337386c
+        text: filepress check and filepress build succeed
+        status: pending
+        evidence_refs: []
+      - id: crit-86f70730a9ff
+        text: Local preview serves home, skill, and about
+        status: pending
+        evidence_refs: []
+      - id: crit-c6b6fc7ebb63
+        text: Skill examples stay generic or gender-neutral
+        status: pending
+        evidence_refs: []
+      - id: crit-29c2a5553bb1
+        text: Error messages are human-readable (not just status codes)
+        status: pending
+        evidence_refs: []
+  - id: phase-c9d2e8f99e10
+    phase: iterate
+    status: not_started
+    criteria:
+      - id: crit-df5efb57b2e1
+        text: Core value proposition delivered
+        status: pending
+        evidence_refs: []
+      - id: crit-be7317e9240e
+        text: Hero flow works with a real subject the user names
+        status: pending
+        evidence_refs: []
+      - id: crit-9e072cd8f6c0
+        text: Features tested beyond happy path
+        status: pending
+        evidence_refs: []
+  - id: phase-a3c2ead17054
+    phase: refine
+    status: not_started
+    criteria:
+      - id: crit-b83628948c0e
+        text: No file exceeds ~500 lines without justification
+        status: pending
+        evidence_refs: []
+      - id: crit-9f1a67ab2f86
+        text: Shared utilities extracted
+        status: pending
+        evidence_refs: []
+      - id: crit-ec2bc0c5de09
+        text: No duplicated patterns
+        status: pending
+        evidence_refs: []
+      - id: crit-f9a5d6f95917
+        text: Build passes after each refactor
+        status: pending
+        evidence_refs: []
+  - id: phase-380029fbbb62
+    phase: align
+    status: not_started
+    criteria:
+      - id: crit-d1f3100c23c3
+        text: BRAND_AND_PRODUCT.md created (via ForgeTrail MCP getTemplate — use the
+          template name matching the doc, e.g. CONTEXT_PROMPT)
+        status: pending
+        evidence_refs: []
+      - id: crit-e97517a0ecc5
+        text: TODO reorganized by brand value pillars
+        status: pending
+        evidence_refs: []
+      - id: crit-d65e3a6214e6
+        text: Features mapped to brand pillars
+        status: pending
+        evidence_refs: []
+      - id: crit-922d958feab8
+        text: Gap between brand promise and product identified
+        status: pending
+        evidence_refs: []
+      - id: crit-d1b6dd797a40
+        text: IDEAS.md processed into TODO
+        status: pending
+        evidence_refs: []
+      - id: crit-2acf78478d29
+        text: Build order decided
+        status: pending
+        evidence_refs: []
+  - id: phase-cca13442d6ba
+    phase: harden
+    status: not_started
+    criteria:
+      - id: crit-51bf32f86952
+        text: CODE_QUALITY.md produced (via ForgeTrail MCP getTemplate — use the
+          template name matching the doc, e.g. CONTEXT_PROMPT) and critical
+          findings fixed
+        status: pending
+        evidence_refs: []
+      - id: crit-4c684daa9b23
+        text: BLACK_HAT_REPORT.md produced (via ForgeTrail MCP runAudit with type
+          black-hat) and critical/high findings fixed
+        status: pending
+        evidence_refs: []
+      - id: crit-8f4a04d0b379
+        text: All findings triaged into TODO.md with P0/P1/P2 priority
+        status: pending
+        evidence_refs: []
+      - id: crit-3b64697ae33e
+        text: DEPLOYMENT.md created (via ForgeTrail MCP getTemplate — use the template
+          name matching the doc, e.g. CONTEXT_PROMPT)
+        status: pending
+        evidence_refs: []
+      - id: crit-d40154d3f941
+        text: Docs alignment audit passed (ForgeTrail MCP runAudit with type
+          docs-alignment)
+        status: pending
+        evidence_refs: []
+      - id: crit-fd9d17f89632
+        text: All documentation consolidated and cross-referenced
+        status: pending
+        evidence_refs: []
+transitions: []
