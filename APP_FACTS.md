@@ -1,6 +1,6 @@
 ---
 app_facts_version: 0.1.0
-name: get-ember-dossier
+name: EmberDossier
 type: library
 status: active
 license: MIT
@@ -28,7 +28,7 @@ generated:
   inputs_fingerprint: feac609b03cabc0b
 ---
 
-# get-ember-dossier
+# EmberDossier
 
 `library` · **active** · MIT
 
@@ -60,4 +60,4 @@ Curated stack label for this repository — aimed at an under-a-minute skim.
 ---
 *Generated with [AppFacts](https://appfacts.dev) · Scan `APP_FACTS.png` or open the [visual label][appfacts-label]*
 
-[appfacts-label]: https://appfacts.dev/v#af1.eNpdkkGLGzEMhf_K8M7Ohl59DRRatqWQvZVSNB7FceOxjaTJMoT578VJW7p7M35P8tMn33CF_-BQaGZ4RLYdzyPLbqqqiQUOtrYu5TQKyQoHNbJF4UHB0pXhkFPgot315dPLwxEu8DdkKnGh2JWXtfExSGrmhs90pb_nw_EIB1mKpXuEr3Xip18Kh5PQzK9VLo9gp5S5CWuXzlUtlQiPQ67LdMokPHyjyIrNYeKm8N9vKPDQmXMOZw4XODR48JSsSqI8yJJZh1OVoS1jTnqmMfPQpCpjc4_ydw_3Bn3-FAZNxkPkwkJW5V_Bq1CJ-U6uvc03cct1nbnYYLVmbD8cxiXlqZNqFC4U-edMhSILPFppc8fPavBYypQ05Ko8wSGkd1dbZzJze7A-mzX1-_19lX82-RRqbyfcqnYA63--mOy8jN2xP5BRXtV2H6tE3j0_H_ZvP8T2GyvnwgI
+[appfacts-label]: https://appfacts.dev/v#af1.eNpdkUGP1DAMhf9K9c6ZHXHNdQAJtCCk2RtCyE08aXbSJLLTWVWj_neULSDYm2U_P9uf77jBvjPINDMsPswjy_uiGllg0NbasymOQrLCQBu1RWFBrsUbwyBFx1m76sunp13hrrB3JMphodArT2vls5NYmxk-043-xKfzGQay5BZfp38tnh-eFQYXoZlfilxhEbhdYuIqrL00FW0xB1icUln8JZHw8I0CKzYDz1Vhv9-RYaEzp-QmdlcYVFiwj61IpDTIkliHS5GhLmOKOtGYeKhSlLGZvf3N4G7Q749u0Nh4CJxZqBX52_AilEN6JVf_389zTWWdObehlZKw_TAYl5h8J1XJXSnwz5kyBRZY1Fznjp-1wWLJPqpLRdnDwMU3qa0zmbnurKfWqtrjkfsn_f7JB1e6nXAt2gGs_-hCbNMydsXxRI3Squ3wsUjgw-PjaXc5_LbB9gsj-8Ao

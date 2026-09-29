@@ -1,6 +1,6 @@
 ---
 skill_facts_version: "0.1.0"
-name: ember-dossier
+name: EmberDossier
 developer: Catalyst Forge
 version: "0.1.4"
 status: active
@@ -31,7 +31,7 @@ credits:
   built_by: "Catalyst Forge - https://www.catalystforge.com/"
 ---
 
-# Skill Facts - ember-dossier
+# Skill Facts - EmberDossier
 
 | | |
 |---|---|
@@ -80,4 +80,4 @@ Create a current, comprehensive, neutral briefing that leads with recency (livin
 ---
 *Generated with [SkillFacts](https://skillfacts.dev) · Built by [Catalyst Forge](https://www.catalystforge.com/)*
 
-[skillfacts-label]: https://skillfacts.dev/v#sf1.eNqdUUFq5DAQ_IrQKQF7Jln25FsYyCk_WJZBlttWM7IkulsehpC_p-VN2GXJKbemulTVVXq1mx0eO5vcCnawsI5A_ZSZEch2doINYi46D_bkxMUbi3nOtIAuNyDGnHT1cHg8_FSExUllBZwX3BonoofETfqpOB-g_3F4UPiCaVLMV-JMPV8wRkVLpZJ38onACRhnlEGQpDM-r4UgqJgKdyZBFXLRjIQwY1qMBCcmgpvYXFGCIVBjfzN3Ebe2_8hk5kyrk_vmRnmD5JJXw1fLuVKbbBApPByPi6rU8aC-x8_k_Z68f3k5Hf8vqtQxIoevinrrLCYWqtpJTnzWaD7slgE09mBTTq2qBHLNdFEA1xIRJsVmjMAqBesnT9Uk59hkZtBqvPKGX787O9Y0RZjOjgRn7Z__wLAQMDc7gQgrCN3-Wk7AgsntdzW6ioe8QnHLv03sWT-itj70IYF-FErexb7XmBaSvH6ynq8jvL0DhePjmw
+[skillfacts-label]: https://skillfacts.dev/v#sf1.eNqdkMFuGzEMRH9F4KkBZDspetKtcNpT_iAoAq127CWslRYktYER-N8LbZq2h556I8jBDOe90UrhwVOJMyjQt3mAPFZVhpCnEStyXSAU6Bgt5qua-17lDPK0QpRroUD3-4f9F_KkFq0pBYrJeO2azAlFu_PXJaYJu8_7e_J04TJSoNREq-z0wjmTp6XJUjfxURANLrrURFDMu1TnRTChKK_wrqCZxOwGYZy4nJ1N0VxGHNW9sk1OkFDS1X3KvPb7-N7JnarM0e56mtQVJZYECm-ktUmfaDJbNBwOZ7apDftU58NH893WfPf0dDygc9qNv0Etbcis079A3TxxUZOWjGvRF0FM0xY5IWcKVGrpqArstcqFAvG8ZMZInk6coVc1zB-6myerNXebEwQlYaTw_MPT0MqYMb5EMT7FZPq-xlmg2uMMGTNMrn8iR6hxidtfXX7zNNUZSzz_TWLr-qtq50GeBEtVtrqZ_R8xk1ZStP6-ScPtJ3Md4y4
