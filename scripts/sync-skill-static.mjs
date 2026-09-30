@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Copy skills/ember-dossier/ to the site (raw Markdown + ZIP).
+ * Copy skills/ember-dossier/ to the site and this repo's Cursor installation.
  */
 import {
 	cpSync,
@@ -19,6 +19,7 @@ const skillName = "ember-dossier";
 const skillSrcDir = join(root, "skills", skillName);
 const siteSkillDir = join(root, "site", "static", "skills", skillName);
 const siteZipPath = join(root, "site", "static", "skills", `${skillName}.zip`);
+const localSkillDir = join(root, ".cursor", "skills", skillName);
 
 function crc32(buf) {
 	let c = 0xffffffff;
@@ -110,6 +111,8 @@ function walkFiles(dir, prefix = "") {
 rmSync(siteSkillDir, { recursive: true, force: true });
 mkdirSync(dirname(siteSkillDir), { recursive: true });
 cpSync(skillSrcDir, siteSkillDir, { recursive: true });
+mkdirSync(localSkillDir, { recursive: true });
+cpSync(skillSrcDir, localSkillDir, { recursive: true });
 
 const zipEntries = walkFiles(skillSrcDir).map(({ name, data }) => ({
 	name: `${skillName}/${name}`,
