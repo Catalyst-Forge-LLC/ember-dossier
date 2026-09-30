@@ -1,10 +1,12 @@
 # EmberDossier — Phase 1 architecture brief
 
-_Structured capture of planning and architecture **before** locking Phase 2. Goal: the next session can start from this file + `.forgetrail/workflow_tracking.json` without re-reading the kickoff chat._
+_Structured capture of planning and architecture **before** locking Phase 2. Goal: the next session can start from this file and the authoritative `appledger/` records without re-reading the kickoff chat._
 
 **Status:** `draft`  
 **Last updated:** 2026-08-19  
-**Phase 1 exit:** Do not mark Phase 1 complete in `.forgetrail/workflow_tracking.json` until this brief is **locked** and major commitments are in `decisions[]`.
+**Phase 1 exit:** Do not mark Phase 1 complete in `appledger/profiles/forgetrail.yaml` until this brief is **locked** and major commitments are recorded in `appledger/records/decision/`.
+
+Tracking references updated on 2026-09-30 after the AppLedger cutover. The dated draft and its proposed commitments remain unchanged; current state belongs to the ledger.
 
 ---
 
