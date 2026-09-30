@@ -178,5 +178,5 @@ Skip. Site and skill are hand-authored. Dossiers are produced by the *consumer* 
 
 - [ ] User has confirmed stack, folder shape, hero flow, and v1 boundaries
 - [ ] This brief is **locked** (no `[draft]` ambiguity) or remaining items are only in §9
-- [ ] `.forgetrail/workflow_tracking.json` updated: `decisions[]` for each major D#; phase notes summarize sign-off
-- [ ] Phase 2 opener will read **this file** + `.forgetrail/workflow_tracking.json` first
+- [ ] `appledger/records/decision/` records each major D#; the relevant session records summarize sign-off
+- [ ] Phase 2 opener will read **this file**, `appledger/profiles/forgetrail.yaml`, and the latest `appledger/records/session/` record first

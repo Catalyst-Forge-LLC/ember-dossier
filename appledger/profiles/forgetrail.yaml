@@ -34,7 +34,7 @@ phase_instances:
         status: pending
         evidence_refs: []
       - id: crit-4bbf3ca6468c
-        text: Major decisions recorded in workflow_tracking.json decisions[]
+        text: Major decisions recorded in appledger/records/decision/
         status: pending
         evidence_refs: []
   - id: phase-65df5370e72e
