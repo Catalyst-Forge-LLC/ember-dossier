@@ -4,10 +4,9 @@ const github = 'https://github.com/Catalyst-Forge-LLC/ember-dossier';
 
 export default defineFilepressConfig({
 	title: 'EmberDossier',
-	description:
-		'A living dossier that prioritizes what is still current. Present tense first.',
+	description: "EmberDossier puts what is true now and what changed recently ahead of the background. Give your research agent the subject and context, then use the dated briefing to prepare your next conversation.",
 	tagline: 'Present tense first.',
-	lede: 'Briefing · present tense · sources',
+	lede: "Briefing format and skill for your research agent",
 	url: 'https://emberdossier.com',
 	author: 'Catalyst Forge LLC',
 	logo: '/logo.png',

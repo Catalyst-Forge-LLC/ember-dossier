@@ -1,17 +1,10 @@
 ---
-title: A briefing that starts with what is true now.
-description: An installable briefing skill for AI agents. Prepare a briefing that starts with what is true now and what changed recently, then supplies the background.
+title: "Walk into the meeting with the current picture."
+description: "EmberDossier puts what is true now and what changed recently ahead of the background. Give your research agent the subject and context, then use the dated briefing to prepare your next conversation."
 order: 0
 ---
 
-An installable briefing skill for AI agents. Prepare a briefing for a meeting or a project handoff. EmberDossier gives your research agent a consistent format: what is true now, what changed recently, then the background.
-
-It is a format, not a research service. The agent you already use does the looking. The dossier is current to the sources checked for that run. Show its as-of date and mark sections that were not rechecked. It does not update itself.
-
-<div class="cta-row">
-  <a class="cta cta-primary" href="/skill">Install in your agent</a>
-  <a class="cta cta-secondary" href="/harborview">See an example dossier</a>
-</div>
+<section class="value-hero" aria-label="EmberDossier overview"><div class="value-intro"><p class="value-kind">Briefing format and skill for your research agent</p><h1>Walk into the meeting with the current picture.</h1><p class="value-lede">EmberDossier puts what is true now and what changed recently ahead of the background. Give your research agent the subject and context, then use the dated briefing to prepare your next conversation.</p><div class="cta-row"><a class="cta cta-primary" href="/skill">Install EmberDossier</a><a class="cta cta-secondary" href="/harborview">Read the example briefing</a></div><p class="value-limit">The agent does the research. The format does not update itself. Every briefing needs an as-of date, sources, and unrechecked sections marked.</p></div><figure class="value-proof"><figcaption>Illustrative example</figcaption><p><strong>Starting point</strong><br>A nonprofit is preparing to propose tutoring at a library.</p><div class="value-result"><p><strong>What you get</strong><br>The west wing is closed. Hours are reduced. A facilities budget vote is approaching.</p></div><p>The team can ask about usable space and staffing instead of assuming the old arrangement still holds.</p><p class="value-note">Harborview Public Library is fictional. Fixture as of 19 August 2026.</p></figure></section>
 
 ## Example: before a partner meeting
 
