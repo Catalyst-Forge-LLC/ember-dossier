@@ -3,7 +3,7 @@
 	"version": "0.1.33",
 	"private": false,
 	"type": "module",
-	"description": "A living dossier that prioritizes what is still current. Present tense first.",
+	"description": "An agent skill for dated, sourced briefings that lead with the current situation and recent changes.",
 	"license": "MIT",
 	"author": "Catalyst Forge LLC",
 	"keywords": [

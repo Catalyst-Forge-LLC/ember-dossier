@@ -4,7 +4,7 @@ A living dossier that prioritizes what’s still hot.
 
 Present tense first. Background second.
 
-EmberDossier is a structured prompting pattern and agent skill. It produces current, neutral briefings on a person, organization, place, topic, or event, for reading before a meeting, a decision, or a handoff. It is a format, not a research service.
+EmberDossier gives your research agent a format for dated, sourced briefings on a person, organization, place, topic, or event. Use the current picture to prepare a meeting, make a decision, or hand work over. The agent does the research; the briefing stays a dated snapshot until you ask for a refresh.
 
 Site: [emberdossier.com](https://emberdossier.com)
 

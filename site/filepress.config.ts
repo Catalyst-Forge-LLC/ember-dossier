@@ -4,7 +4,7 @@ const github = 'https://github.com/Catalyst-Forge-LLC/ember-dossier';
 
 export default defineFilepressConfig({
 	title: 'EmberDossier',
-	description: "EmberDossier puts what is true now and what changed recently ahead of the background. Give your research agent the subject and context, then use the dated briefing to prepare your next conversation.",
+	description: "EmberDossier gives your research agent a format for dated, sourced briefings on a person, organization, place, topic, or event. Lead with what is true now and what changed recently, so you can prepare a meeting, make a decision, or hand work over with the relevant context.",
 	tagline: 'Present tense first.',
 	lede: "Briefing format and skill for your research agent",
 	url: 'https://emberdossier.com',
